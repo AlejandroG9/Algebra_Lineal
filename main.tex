@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper]{article}
+
+% Idioma y codificación
+\usepackage[spanish,es-nodecimaldot]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Matemáticas y formato
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{multicol}
+
+% Macros del proyecto
+\usepackage{macros}
+
+\geometry{margin=2.5cm}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Álgebra Lineal}
+\lhead{Problemarios}
+\rfoot{\thepage}
+
+\title{\Huge Problemarios de Álgebra Lineal\\[4pt]
+\Large Módulo 1: Números Imaginarios Puros}
+\vspace{0.5cm}
+\author{%
+Facultad de Ingeniería Tampico -- UAT \\
+\vspace{0.5cm}
+\textbf{Autores:} \\
+Dr. Alejandro González Turrubiates \\
+Dr. Marcos Alfredo Azuara Hernandez\\
+Dr. Juan Enrique Bermea Barrios
+}
+\date{\today}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+% ======= SECCIONES =======
+\input{sections/01-introduccion}
+\input{sections/02-numeros_imaginarios_puros}
+\input{sections/03-suma_resta_imaginarios}
+\input{sections/04-multiplicacion_imaginarios}
+\input{sections/05-division_imaginarios}
+\input{sections/06-retos_y_tareas}
+
+% Placeholders de módulos futuros (dejados comentados hasta que los llenemos)
+% \input{sections/10-numeros_complejos}
+% \input{sections/20-division_polinomios}
+% \input{sections/30-matrices}
+% \input{sections/31-determinantes}
+
+\input{sections/99-rubrica_general}
+
+\end{document}

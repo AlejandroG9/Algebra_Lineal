@@ -1,0 +1,48 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{macros}[2025/08/18 Macros de AL_Problemarios]
+
+% Colores suaves para encabezados
+\definecolor{alAzul}{HTML}{1E88E5}
+\definecolor{alMorado}{HTML}{6A1B9A}
+\definecolor{alVerde}{HTML}{2E7D32}
+
+% Entornos estándar del problemario
+\newenvironment{objetivos}{
+  \section*{\textcolor{alAzul}{Objetivos de aprendizaje}}
+  \begin{itemize}[leftmargin=1.25cm]
+}{
+  \end{itemize}
+}
+
+\newenvironment{marcoteorico}{
+  \section*{\textcolor{alAzul}{Marco teórico}}
+  \begin{itemize}[leftmargin=1.25cm]
+}{
+  \end{itemize}
+}
+
+\newenvironment{ejemplos}{
+  \section*{\textcolor{alMorado}{Ejemplos guiados}}
+  \begin{enumerate}[label=\textbf{Ejemplo \arabic*.}, leftmargin=1.25cm]
+}{
+  \end{enumerate}
+}
+
+\newenvironment{actividad}[1]{
+  \section*{\textcolor{alVerde}{Actividad #1}}
+  \begin{enumerate}[label=\arabic*), leftmargin=1.25cm]
+}{
+  \end{enumerate}
+}
+
+\newenvironment{retos}{
+  \section*{\textcolor{alMorado}{Retos}}
+  \begin{enumerate}[label=\textbf{Reto \arabic*.}, leftmargin=1.25cm]
+}{
+  \end{enumerate}
+}
+
+% Atajos matemáticos
+\newcommand{\ii}{\mathrm{i}}          % unidad imaginaria
+\newcommand{\RaizNeg}[1]{\sqrt{-#1}}  % raíz negativa a notación compacta
+\newcommand{\nota}[1]{\textcolor{alMorado}{\textbf{#1}}}
