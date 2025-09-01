@@ -1,48 +1,217 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{macros}[2025/08/18 Macros de AL_Problemarios]
+\ProvidesPackage{macros}[2025/08/21 Macros CI]
 
-% Colores suaves para encabezados
-\definecolor{alAzul}{HTML}{1E88E5}
-\definecolor{alMorado}{HTML}{6A1B9A}
-\definecolor{alVerde}{HTML}{2E7D32}
+%========================
+% Opciones del paquete
+%   \usepackage[solucion]{macros}     -> muestra solución
+%   \usepackage[nosolucion]{macros}   -> oculta solución
+%========================
+% --- Opciones del paquete: solutions / nosolutions ---
+\newif\ifshowsolutions
+\DeclareOption{solutions}{\showsolutionstrue}
+\DeclareOption{nosolutions}{\showsolutionsfalse}
+\ExecuteOptions{nosolutions} % por defecto NO mostrar
+\DeclareOption{solucion}{\showsolutionstrue}
+\DeclareOption{nosolucion}{\showsolutionsfalse}
+\ProcessOptions\relax
 
-% Entornos estándar del problemario
-\newenvironment{objetivos}{
-  \section*{\textcolor{alAzul}{Objetivos de aprendizaje}}
-  \begin{itemize}[leftmargin=1.25cm]
-}{
-  \end{itemize}
-}
+%========================
+% Colores y títulos
+%========================
+\RequirePackage{xcolor}
+\definecolor{azulUAT}{RGB}{0,68,136}
+\definecolor{gris}{gray}{0.25}
 
-\newenvironment{marcoteorico}{
-  \section*{\textcolor{alAzul}{Marco teórico}}
-  \begin{itemize}[leftmargin=1.25cm]
-}{
-  \end{itemize}
-}
+\RequirePackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{azulUAT}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\color{azulUAT}}{\thesubsection}{1em}{}
 
-\newenvironment{ejemplos}{
-  \section*{\textcolor{alMorado}{Ejemplos guiados}}
-  \begin{enumerate}[label=\textbf{Ejemplo \arabic*.}, leftmargin=1.25cm]
-}{
-  \end{enumerate}
-}
-
-\newenvironment{actividad}[1]{
-  \section*{\textcolor{alVerde}{Actividad #1}}
-  \begin{enumerate}[label=\arabic*), leftmargin=1.25cm]
-}{
-  \end{enumerate}
-}
-
-\newenvironment{retos}{
-  \section*{\textcolor{alMorado}{Retos}}
-  \begin{enumerate}[label=\textbf{Reto \arabic*.}, leftmargin=1.25cm]
-}{
-  \end{enumerate}
-}
-
+%========================
 % Atajos matemáticos
-\newcommand{\ii}{\mathrm{i}}          % unidad imaginaria
-\newcommand{\RaizNeg}[1]{\sqrt{-#1}}  % raíz negativa a notación compacta
-\newcommand{\nota}[1]{\textcolor{alMorado}{\textbf{#1}}}
+%========================
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\dvx}{\,\mathrm{d}x}
+\newcommand{\Eval}[2]{\left.#1\right|_{#2}}
+\DeclareMathOperator{\sen}{sen}
+\newcommand{\Int}{\int}
+\newcommand{\Intab}[3]{\int_{#1}^{#2} #3}
+
+%========================
+% tcolorbox (cajas) y Estilo 3
+%========================
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{varwidth}
+\tcbset{boxrule=0.4pt, arc=2mm, enhanced, breakable}
+
+% Clave global para el color de pestaña del Estilo 3
+\newcommand{\tabcolor}{gray!60!black}
+\tcbset{tabcolor/.store in=\tabcolor}
+
+% Estilo 3: pestaña desplazada (sin variantes verdes)
+\tcbset{
+  estiloTres/.style={
+    enhanced,
+    boxrule=0.2mm,
+    sharp corners=all, arc=2mm,
+    fonttitle=\bfseries,
+    attach boxed title to top left={xshift=1cm,yshift*=1mm-\tcboxedtitleheight},
+    varwidth boxed title*=-3cm,
+    boxed title style={
+      frame code={
+        \path[fill=\tabcolor!30!black]
+          ([yshift=-1mm,xshift=-1mm]frame.north west)
+          arc[start angle=0,end angle=180,radius=1mm]
+          ([yshift=-1mm,xshift=1mm]frame.north east)
+          arc[start angle=180,end angle=0,radius=1mm];
+        \path[left color=\tabcolor!60!black,
+              right color=\tabcolor!60!black,
+              middle color=\tabcolor!80!black]
+          ([xshift=-2mm]frame.north west) -- ([xshift=2mm]frame.north east)
+          [rounded corners=1mm]-- ([xshift=1mm,yshift=-1mm]frame.north east)
+          -- (frame.south east) -- (frame.south west)
+          -- ([xshift=-1mm,yshift=-1mm]frame.north west)
+          -- cycle;
+      },
+      interior engine=empty,
+    },
+  },
+}
+
+% Cajas predefinidas opcionales (siguen el Estilo 3)
+\newtcolorbox{definicion}[1][]{estiloTres,
+  tabcolor=azulUAT,
+  colback=blue!3!white, colframe=azulUAT, coltitle=white,
+  title=\textbf{Definición}, #1}
+
+\newtcolorbox{ejemplo}[2][]{estiloTres,
+  tabcolor=gray!70!black,
+  colback=gray!7!white, colframe=gray!70!black, coltitle=white,
+  title={#2}, #1}
+
+% Contador para ejercicios
+\newcounter{ctrEjercicio}
+
+% Estilo base de la caja de ejercicio (SIEMPRE azul, una columna)
+\tcbset{
+  estiloEjSol/.style={
+    estiloTres,
+    tabcolor=azulUAT,
+    colback=blue!5!white,   % fondo del contenido
+    colframe=azulUAT,
+    coltitle=white,
+    before skip=6pt, after skip=8pt,
+    enlarge top by=\tcboxedtitleheight+1mm,
+    % línea punteada para separar enunciado/solución cuando exista \tcblower
+    segmentation style={draw=azulUAT, line width=0.4pt, dash pattern=on 2pt off 1.5pt},
+  },
+}
+
+%========================
+% Entorno EJERCICIO con/ sin solución (sin expl3)
+%   Uso:
+%     \begin{ejercicioSol}[<opciones tcolorbox>]
+%       Enunciado...
+%       \tcblower
+%       Solución...
+%     \end{ejercicioSol}
+%========================
+\RequirePackage{environ}
+\makeatletter
+\newcommand\ej@upper{}
+\newcommand\ej@lower{}
+\long\def\ej@split#1\tcblower#2\@nil{%%
+  \def\ej@upper{#1}%%
+  \def\ej@lower{#2}%%
+}
+
+\NewEnviron{ejercicioSol}[1][]{%%
+  \refstepcounter{ctrEjercicio}%%
+  %% Separar el contenido en antes y después de \tcblower
+  \def\ej@upper{}\def\ej@lower{}%% limpiar
+  \expandafter\ej@split\BODY\tcblower\@nil
+  %% Decidir qué imprimir según la opción del paquete
+  \ifshowsolutions
+    %% CON solución: una sola caja azul con línea punteada y la solución debajo
+    \begin{tcolorbox}[estiloEjSol, title={Ejercicio \thectrEjercicio}, bicolor,
+      colbacklower=blue!5!white,
+      before lower={\textbf{Solución}\par\medskip},
+      #1]
+      \ej@upper
+    \tcblower
+      \ej@lower
+    \end{tcolorbox}
+  \else
+    %% SIN solución: sólo el enunciado; ignorar todo lo posterior a \tcblower
+    \begin{tcolorbox}[estiloEjSol, title={Ejercicio \thectrEjercicio}, #1]
+      \ej@upper
+    \end{tcolorbox}
+  \fi
+}
+\makeatother
+
+%========================
+% Listas compactas
+%========================
+\RequirePackage{enumitem}
+\setlist[itemize]{topsep=2pt,itemsep=2pt}
+\setlist[enumerate]{topsep=2pt,itemsep=2pt}
+
+
+%========================
+% Compatibilidad: ejercicio + \muestraSolucion
+%   - En modo SIN soluciones: imprime sólo el enunciado (caja azul).
+%   - En modo CON soluciones: el enunciado se guarda y \muestraSolucion
+%     imprime UNA sola caja con línea punteada y la solución debajo.
+%========================
+\makeatletter
+\newcommand\ej@pendiente{}   % guarda el último enunciado
+\newif\ifej@tiene
+
+\RequirePackage{environ}
+\NewEnviron{ejercicio}{%
+  % Guarda el enunciado para posible uso con \muestraSolucion
+  \global\let\ej@pendiente\BODY % <-- ESTA ES LA CLAVE
+  \ej@tienetrue
+  \ifshowsolutions
+    % No imprimir aún: se imprimirá junto con la solución
+  \else
+    % SIN soluciones: imprimir ya mismo sólo el enunciado
+    \refstepcounter{ctrEjercicio}%
+    \begin{tcolorbox}[estiloEjSol, title={Ejercicio \thectrEjercicio}]
+      \ej@pendiente
+    \end{tcolorbox}%
+    \gdef\ej@pendiente{}%
+    \ej@tienefalse
+  \fi
+}
+
+\newcommand{\muestraSolucion}[1]{%
+  \ifshowsolutions
+    \refstepcounter{ctrEjercicio}%
+    \begin{tcolorbox}[estiloEjSol, title={Ejercicio \thectrEjercicio}, bicolor,
+      colbacklower=blue!5!white,
+      before lower={\textbf{Solución}\par\medskip}]
+      \ej@pendiente
+    \tcblower
+      #1%
+    \end{tcolorbox}%
+  \fi
+  % Limpia el enunciado guardado, esté o no en modo soluciones
+  \gdef\ej@pendiente{}%
+  \ej@tienefalse
+}
+\makeatother
+
+
+\RequirePackage{fancyhdr}
+
+\newcommand{\setupEncabezado}[3]{% izquierda, centro, derecha
+  \pagestyle{fancy}
+  \fancyhf{}
+  \fancyhead[L]{#1}
+  \fancyhead[C]{#2}
+  \fancyhead[R]{#3}
+  \fancyfoot[R]{\thepage}
+  \renewcommand{\headrulewidth}{0.4pt}
+}

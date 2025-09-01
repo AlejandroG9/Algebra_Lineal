@@ -1,40 +1,52 @@
 \documentclass[12pt,a4paper]{article}
 
-% Idioma y codificación
+% ====== Alinear ecuaciones a la izquierda (opcional) ======
+\PassOptionsToPackage{fleqn}{amsmath}
+\usepackage{mathtools}
+\AtBeginDocument{\setlength{\mathindent}{0pt}}
+
+% ====== Idioma y codificación ======
 \usepackage[spanish,es-nodecimaldot]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
-% Matemáticas y formato
-\usepackage{amsmath, amssymb, amsfonts}
-\usepackage{geometry}
-\usepackage{fancyhdr}
-\usepackage{enumitem}
-\usepackage{hyperref}
+% ====== Matemáticas y formato ======
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{siunitx}
+\usepackage{physics}
 \usepackage{xcolor}
+\usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!60!black,
+  urlcolor=blue!60!black,
+  citecolor=blue!60!black
+}
 
-% Macros del proyecto
-\usepackage{macros}
+% (Opcional) compatibilidad \qty entre physics y siunitx
+\AtBeginDocument{\RenewCommandCopy\qty\SI}
 
-\geometry{margin=2.5cm}
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Álgebra Lineal}
-\lhead{Problemarios}
-\rfoot{\thepage}
+% ====== Macros del proyecto (controla soluciones y encabezado) ======
+\usepackage[nosolucion]{macros}  % cambia a [nosolucion] si quieres ocultarlas
 
+% Encabezado superior (izquierda, centro, derecha)
+\setupEncabezado{Problemarios}{Módulo 1: Números Imaginarios Puros}{Álgebra Lineal}
+
+% ====== Metadatos ======
 \title{\Huge Problemarios de Álgebra Lineal\\[4pt]
 \Large Módulo 1: Números Imaginarios Puros}
-\vspace{0.5cm}
 \author{%
-Facultad de Ingeniería Tampico -- UAT \\
-\vspace{0.5cm}
-\textbf{Autores:} \\
-Dr. Alejandro González Turrubiates \\
-Dr. Marcos Alfredo Azuara Hernandez\\
-Dr. Juan Enrique Bermea Barrios
+Facultad de Ingeniería Tampico -- UAT\\[4pt]
+\textbf{Autores:}\\
+Dr.\ Alejandro González Turrubiates\\
+Dr.\ Marcos Alfredo Azuara Hernandez\\
+Dr.\ Juan Enrique Bermea Barrios
 }
 \date{\today}
 
@@ -51,7 +63,7 @@ Dr. Juan Enrique Bermea Barrios
 \input{sections/05-division_imaginarios}
 \input{sections/06-retos_y_tareas}
 
-% Placeholders de módulos futuros (dejados comentados hasta que los llenemos)
+% Placeholders de módulos futuros
 % \input{sections/10-numeros_complejos}
 % \input{sections/20-division_polinomios}
 % \input{sections/30-matrices}
