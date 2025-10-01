@@ -4,15 +4,14 @@
 %========================
 % Opciones del paquete
 %   \usepackage[solucion]{macros}     -> muestra solución
-%   \usepackage[nosolucion]{macros}   -> oculta solución
+%   \usepackage[nosolucion]{macros}   -> oculta solución (por defecto)
 %========================
-% --- Opciones del paquete: solutions / nosolutions ---
 \newif\ifshowsolutions
 \DeclareOption{solutions}{\showsolutionstrue}
 \DeclareOption{nosolutions}{\showsolutionsfalse}
-\ExecuteOptions{nosolutions} % por defecto NO mostrar
 \DeclareOption{solucion}{\showsolutionstrue}
 \DeclareOption{nosolucion}{\showsolutionsfalse}
+\ExecuteOptions{nosolucion}
 \ProcessOptions\relax
 
 %========================
@@ -36,6 +35,8 @@
 \DeclareMathOperator{\sen}{sen}
 \newcommand{\Int}{\int}
 \newcommand{\Intab}[3]{\int_{#1}^{#2} #3}
+% Unidad imaginaria (respetuosa con definiciones previas)
+\providecommand{\ii}{\mathrm{i}}
 
 %========================
 % tcolorbox (cajas) y Estilo 3
@@ -89,60 +90,46 @@
   colback=gray!7!white, colframe=gray!70!black, coltitle=white,
   title={#2}, #1}
 
-% Contador para ejercicios
+%========================
+% Contador y estilo de ejercicios
+%========================
 \newcounter{ctrEjercicio}
 
-% Estilo base de la caja de ejercicio (SIEMPRE azul, una columna)
 \tcbset{
   estiloEjSol/.style={
     estiloTres,
     tabcolor=azulUAT,
-    colback=blue!5!white,   % fondo del contenido
+    colback=blue!5!white,
     colframe=azulUAT,
     coltitle=white,
     before skip=6pt, after skip=8pt,
     enlarge top by=\tcboxedtitleheight+1mm,
-    % línea punteada para separar enunciado/solución cuando exista \tcblower
     segmentation style={draw=azulUAT, line width=0.4pt, dash pattern=on 2pt off 1.5pt},
   },
 }
 
 %========================
-% Entorno EJERCICIO con/ sin solución (sin expl3)
-%   Uso:
-%     \begin{ejercicioSol}[<opciones tcolorbox>]
-%       Enunciado...
-%       \tcblower
-%       Solución...
-%     \end{ejercicioSol}
+% ejercicioSol: una sola caja con/ sin solución
 %========================
 \RequirePackage{environ}
 \makeatletter
 \newcommand\ej@upper{}
 \newcommand\ej@lower{}
-\long\def\ej@split#1\tcblower#2\@nil{%%
-  \def\ej@upper{#1}%%
-  \def\ej@lower{#2}%%
-}
+\long\def\ej@split#1\tcblower#2\@nil{\def\ej@upper{#1}\def\ej@lower{#2}}
 
-\NewEnviron{ejercicioSol}[1][]{%%
-  \refstepcounter{ctrEjercicio}%%
-  %% Separar el contenido en antes y después de \tcblower
-  \def\ej@upper{}\def\ej@lower{}%% limpiar
+\NewEnviron{ejercicioSol}[1][]{%
+  \refstepcounter{ctrEjercicio}%
+  \def\ej@upper{}\def\ej@lower{}%
   \expandafter\ej@split\BODY\tcblower\@nil
-  %% Decidir qué imprimir según la opción del paquete
   \ifshowsolutions
-    %% CON solución: una sola caja azul con línea punteada y la solución debajo
     \begin{tcolorbox}[estiloEjSol, title={Ejercicio \thectrEjercicio}, bicolor,
       colbacklower=blue!5!white,
-      before lower={\textbf{Solución}\par\medskip},
-      #1]
+      before lower={\textbf{Solución}\par\medskip}, #1]
       \ej@upper
     \tcblower
       \ej@lower
     \end{tcolorbox}
   \else
-    %% SIN solución: sólo el enunciado; ignorar todo lo posterior a \tcblower
     \begin{tcolorbox}[estiloEjSol, title={Ejercicio \thectrEjercicio}, #1]
       \ej@upper
     \end{tcolorbox}
@@ -151,32 +138,18 @@
 \makeatother
 
 %========================
-% Listas compactas
-%========================
-\RequirePackage{enumitem}
-\setlist[itemize]{topsep=2pt,itemsep=2pt}
-\setlist[enumerate]{topsep=2pt,itemsep=2pt}
-
-
-%========================
-% Compatibilidad: ejercicio + \muestraSolucion
-%   - En modo SIN soluciones: imprime sólo el enunciado (caja azul).
-%   - En modo CON soluciones: el enunciado se guarda y \muestraSolucion
-%     imprime UNA sola caja con línea punteada y la solución debajo.
+% ejercicio + \muestraSolucion (compatibilidad)
 %========================
 \makeatletter
-\newcommand\ej@pendiente{}   % guarda el último enunciado
+\newcommand\ej@pendiente{}
 \newif\ifej@tiene
 
-\RequirePackage{environ}
 \NewEnviron{ejercicio}{%
-  % Guarda el enunciado para posible uso con \muestraSolucion
-  \global\let\ej@pendiente\BODY % <-- ESTA ES LA CLAVE
+  \global\let\ej@pendiente\BODY
   \ej@tienetrue
   \ifshowsolutions
-    % No imprimir aún: se imprimirá junto con la solución
+    % Se imprimirá al llamar \muestraSolucion
   \else
-    % SIN soluciones: imprimir ya mismo sólo el enunciado
     \refstepcounter{ctrEjercicio}%
     \begin{tcolorbox}[estiloEjSol, title={Ejercicio \thectrEjercicio}]
       \ej@pendiente
@@ -197,15 +170,22 @@
       #1%
     \end{tcolorbox}%
   \fi
-  % Limpia el enunciado guardado, esté o no en modo soluciones
   \gdef\ej@pendiente{}%
   \ej@tienefalse
 }
 \makeatother
 
+%========================
+% Listas compactas
+%========================
+\RequirePackage{enumitem}
+\setlist[itemize]{topsep=2pt,itemsep=2pt}
+\setlist[enumerate]{topsep=2pt,itemsep=2pt}
 
+%========================
+% Encabezados y pie
+%========================
 \RequirePackage{fancyhdr}
-
 \newcommand{\setupEncabezado}[3]{% izquierda, centro, derecha
   \pagestyle{fancy}
   \fancyhf{}
@@ -214,4 +194,44 @@
   \fancyhead[R]{#3}
   \fancyfoot[R]{\thepage}
   \renewcommand{\headrulewidth}{0.4pt}
+}
+% Altura de encabezado suficiente para evitar warnings
+\setlength{\headheight}{15.5pt}
+
+%========================
+% Entornos de contenido (objetivos, marco, ejemplos, actividades, retos)
+%========================
+\newenvironment{objetivos}{
+  \section*{\textcolor{azulUAT}{Objetivos de aprendizaje}}
+  \begin{itemize}[leftmargin=1.25cm]
+}{
+  \end{itemize}
+}
+
+\newenvironment{marcoteorico}{
+  \section*{\textcolor{azulUAT}{Marco teórico}}
+  \begin{itemize}[leftmargin=1.25cm]
+}{
+  \end{itemize}
+}
+
+\newenvironment{ejemplos}{
+  \section*{\textcolor{azulUAT}{Ejemplos guiados}}
+  \begin{enumerate}[label=\textbf{Ejemplo \arabic*.}, leftmargin=1.25cm]
+}{
+  \end{enumerate}
+}
+
+\newenvironment{actividad}[1]{
+  \section*{\textcolor{azulUAT}{Actividad #1}}
+  \begin{enumerate}[label=\arabic*), leftmargin=1.25cm]
+}{
+  \end{enumerate}
+}
+
+\newenvironment{retos}{
+  \section*{\textcolor{azulUAT}{Retos}}
+  \begin{enumerate}[label=\textbf{Reto \arabic*.}, leftmargin=1.25cm]
+}{
+  \end{enumerate}
 }

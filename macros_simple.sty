@@ -1,0 +1,46 @@
+% macros_simple.sty — Estilo minimalista sin cajas
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{macros_simple}[2025/09/23 Estilo de ejercicios sin cajas]
+
+% ---------- Opciones: solucion / nosolucion ----------
+\newif\ifshowsolution
+\DeclareOption{solucion}{\showsolutiontrue}
+\DeclareOption{nosolucion}{\showsolutionfalse}
+\ExecuteOptions{nosolucion}
+\ProcessOptions\relax
+
+% ---------- Paquetes útiles (ligeros) ----------
+\RequirePackage{ifthen}
+\RequirePackage{etoolbox}
+
+% ---------- Contador de ejercicios ----------
+\newcounter{ejercicio}
+
+% ---------- Comandos de utilidad ----------
+\newcommand{\instruccion}[1]{\textbf{Instrucción:} #1}
+
+% ---------- Entorno ejercicio ----------
+% Uso: \begin{ejercicio}[texto opcional junto al título] ... \end{ejercicio}
+\newenvironment{ejercicio}[1][]
+{%
+  \refstepcounter{ejercicio}%
+  \par\medskip
+  \noindent\textbf{Ejercicio \theejercicio}%
+  \ifstrempty{#1}{}{ \textit{(#1)}}%
+  \par\smallskip
+}
+{\par\medskip}
+
+% ---------- Macro para solución ----------
+% Uso: \muestraSolucion{ ... contenido ... }
+\newcommand{\muestraSolucion}[1]{%
+  \ifshowsolution
+    \par\smallskip
+    \noindent\textbf{Solución.}\; #1\par\medskip
+  \fi
+}
+
+% ---------- Separador opcional entre ejercicios ----------
+\newcommand{\sepEjercicio}{\par\medskip}
+
+% (No definimos nada de cajas/bordes/colores; diseño limpio)
