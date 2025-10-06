@@ -1,0 +1,1930 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  5 OCT 2025 22:04
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Proyecto_Final_Algebra_Lineal_v2.tex
+(./Proyecto_Final_Algebra_Lineal_v2.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/articl
+e.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/size12
+.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel/bab
+el.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen141
+\l@unhyphenated=\language89
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel/txt
+babel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count197
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel-spa
+nish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count198
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/babel/loc
+ale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+math.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+text.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+gen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen142
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+bsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsmath/ams
+opn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count199
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count266
+\leftroot@=\count267
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count268
+\DOTSCASE@=\count269
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count270
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count271
+\dotsspace@=\muskip16
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
+\tag@help=\toks19
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
+\andhelp@=\toks20
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks21
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/am
+ssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/am
+sfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/ke
+yval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ifv
+tex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count277
+\Gm@cntv=\count278
+\c@Gm@tempcnt=\count279
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks24
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/tools/multi
+col.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count280
+\mult@box=\box53
+\multicol@leftmargin=\dimen159
+\c@unbalance=\count281
+\c@collectmore=\count282
+\doublecol@number=\count283
+\multicoltolerance=\count284
+\multicolpretolerance=\count285
+\full@width=\dimen160
+\page@free=\dimen161
+\premulticols=\dimen162
+\postmulticols=\dimen163
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box54
+\last@line=\box55
+\mc@boxedresult=\box56
+\maxbalancingoverflow=\dimen164
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count286
+\c@columnbadness=\count287
+\c@finalcolumnbadness=\count288
+\last@try=\dimen165
+\multicolovershoot=\dimen166
+\multicolundershoot=\dimen167
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count289
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/gr
+aphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/gr
+aphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics/tr
+ig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-cf
+g/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/graphics-de
+f/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen168
+\Gin@req@width=\dimen169
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/fancyhdr/fa
+ncyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip55
+\f@nch@O@elh=\skip56
+\f@nch@O@erh=\skip57
+\f@nch@O@olh=\skip58
+\f@nch@O@orh=\skip59
+\f@nch@O@elf=\skip60
+\f@nch@O@erf=\skip61
+\f@nch@O@olf=\skip62
+\f@nch@O@orf=\skip63
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/l3backend/l
+3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count290
+\l__pdf_internal_box=\box99
+)
+(/Users/alejandrogonzalezturrubiates/Proyectos/Algebra_Lineal/out/Proyecto_Fina
+l_Algebra_Lineal_v2.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+\openout1 = `Proyecto_Final_Algebra_Lineal_v2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=16.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/context/base/mkii
+/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count291
+\scratchdimen=\dimen170
+\scratchbox=\box100
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count294
+\MPscratchDim=\dimen171
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks26
+)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/epstopdf-pk
+g/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/latexconfig
+/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) [1
+
+{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-var/fonts/map/pdftex/updma
+p/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/um
+sa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/amsfonts/um
+sb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 103--108
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[2]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 139--144
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[3]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 175--180
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[4]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 211--216
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[5]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 247--252
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[6]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 283--288
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[7]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 319--324
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[8]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 355--360
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[9]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 391--396
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[10]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 427--432
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[11]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 463--468
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[12]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 499--504
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[13]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 535--540
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[14]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 571--576
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[15]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 607--612
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[16]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 643--648
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[17]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 679--684
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[18]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 715--720
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[19]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 751--756
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[20]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 787--792
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[21]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 823--828
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[22]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 859--864
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[23]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 895--900
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[24]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 931--936
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[25]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 967--972
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[26]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1003--1008
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[27]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1039--1044
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[28]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1075--1080
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[29]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1111--1116
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[30]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1147--1152
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[31]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1183--1188
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[32]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1219--1224
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[33]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1255--1260
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[34]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1291--1296
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[35]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1327--1332
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[36]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1363--1368
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[37]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1399--1404
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[38]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1435--1440
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[39]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1471--1476
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[40]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1507--1512
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[41]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1543--1548
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[42]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1579--1584
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[43]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1615--1620
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[44]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1651--1656
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[45]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1687--1692
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[46]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1723--1728
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[47]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1759--1764
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[48]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1795--1800
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[49]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1831--1836
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[50]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1867--1872
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[51]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1903--1908
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[52]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1939--1944
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[53]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 1975--1980
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[54]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2011--2016
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[55]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2047--2052
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[56]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2083--2088
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[57]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2119--2124
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[58]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2155--2160
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[59]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2191--2196
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[60]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2227--2232
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[61]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2263--2268
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[62]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2299--2304
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[63]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2335--2340
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[64]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2371--2376
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[65]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2407--2412
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[66]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2443--2448
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[67]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2479--2484
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[68]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2515--2520
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[69]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2551--2556
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[70]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2587--2592
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[71]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2623--2628
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[72]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2659--2664
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[73]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2695--2700
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[74]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2731--2736
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[75]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2767--2772
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[76]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2803--2808
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[77]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2839--2844
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[78]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2875--2880
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[79]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2911--2916
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[80]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2947--2952
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[81]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 2983--2988
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[82]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3019--3024
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[83]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3055--3060
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[84]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3091--3096
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[85]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3127--3132
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[86]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3163--3168
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[87]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3199--3204
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[88]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3235--3240
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[89]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3271--3276
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[90]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3307--3312
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[91]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3343--3348
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[92]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3379--3384
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[93]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3415--3420
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[94]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3451--3456
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[95]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3487--3492
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[96]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3523--3528
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[97]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3559--3564
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[98]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3595--3600
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[99]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3631--3636
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[100]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3667--3672
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[101]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3703--3708
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[102]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3739--3744
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[103]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3775--3780
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[104]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3811--3816
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[105]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3847--3852
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[106]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3883--3888
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[107]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3919--3924
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[108]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3955--3960
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[109]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 3991--3996
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[110]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4027--4032
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[111]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4063--4068
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[112]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4099--4104
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[113]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4135--4140
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[114]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4171--4176
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[115]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4207--4212
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[116]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4243--4248
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[117]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4279--4284
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[118]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4315--4320
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[119]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4351--4356
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[120]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4387--4392
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[121]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4423--4428
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[122]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4459--4464
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[123]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4495--4500
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[124]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4531--4536
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[125]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4567--4572
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[126]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4603--4608
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[127]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4639--4644
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[128]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4675--4680
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[129]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4711--4716
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[130]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4747--4752
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[131]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4783--4788
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[132]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4819--4824
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[133]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4855--4860
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[134]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4891--4896
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[135]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4927--4932
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[136]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4963--4968
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[137]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 4999--5004
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[138]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5035--5040
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[139]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5071--5076
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[140]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5107--5112
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[141]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5143--5148
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[142]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5179--5184
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[143]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5215--5220
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[144]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5251--5256
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[145]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5287--5292
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[146]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5323--5328
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[147]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5359--5364
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[148]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5395--5400
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[149]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5431--5436
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[150]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5467--5472
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[151]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5503--5508
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[152]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5539--5544
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[153]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5575--5580
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[154]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5611--5616
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[155]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5647--5652
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[156]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5683--5688
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[157]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5719--5724
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[158]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5755--5760
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[159]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5791--5796
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[160]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5827--5832
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[161]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5863--5868
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[162]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5899--5904
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[163]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5935--5940
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[164]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 5971--5976
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[165]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6007--6012
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[166]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6043--6048
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[167]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6079--6084
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[168]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6115--6120
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[169]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6151--6156
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[170]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6187--6192
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[171]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6223--6228
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[172]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6259--6264
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[173]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6295--6300
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[174]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6331--6336
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[175]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6367--6372
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[176]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6403--6408
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[177]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6439--6444
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[178]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6475--6480
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[179]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6511--6516
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[180]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6547--6552
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[181]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6583--6588
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[182]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6619--6624
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[183]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6655--6660
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[184]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6691--6696
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[185]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6727--6732
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[186]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6763--6768
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[187]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6799--6804
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[188]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6835--6840
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[189]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6871--6876
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[190]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6907--6912
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[191]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6943--6948
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[192]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 6979--6984
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[193]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7015--7020
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[194]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7051--7056
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[195]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7087--7092
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[196]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7123--7128
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[197]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7159--7164
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[198]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7195--7200
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[199]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7231--7236
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[200]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7267--7272
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[201]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7303--7308
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[202]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7339--7344
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[203]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7375--7380
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[204]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7411--7416
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[205]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7447--7452
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[206]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7483--7488
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[207]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7519--7524
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[208]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7555--7560
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[209]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7591--7596
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[210]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7627--7632
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[211]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7663--7668
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[212]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7699--7704
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[213]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7735--7740
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[214]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7771--7776
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[215]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7807--7812
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[216]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7843--7848
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[217]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7879--7884
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[218]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7915--7920
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[219]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7951--7956
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[220]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 7987--7992
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[221]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8023--8028
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[222]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8059--8064
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[223]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8095--8100
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[224]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8131--8136
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[225]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8167--8172
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[226]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8203--8208
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[227]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8239--8244
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[228]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8275--8280
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[229]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8311--8316
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[230]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8347--8352
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[231]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8383--8388
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[232]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8419--8424
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[233]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8455--8460
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[234]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8491--8496
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[235]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8527--8532
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[236]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8563--8568
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[237]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8599--8604
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[238]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8635--8640
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[239]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8671--8676
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[240]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8707--8712
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[241]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8743--8748
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[242]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8779--8784
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[243]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8815--8820
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[244]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8851--8856
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[245]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8887--8892
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[246]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8923--8928
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[247]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8959--8964
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[248]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 8995--9000
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[249]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9031--9036
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[250]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9067--9072
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[251]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9103--9108
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[252]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9139--9144
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[253]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9175--9180
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[254]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9211--9216
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[255]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9247--9252
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[256]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9283--9288
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[257]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9319--9324
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[258]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9355--9360
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[259]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9391--9396
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[260]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9427--9432
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[261]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9463--9468
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[262]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9499--9504
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[263]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9535--9540
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[264]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9571--9576
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[265]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9607--9612
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[266]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9643--9648
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[267]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9679--9684
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[268]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9715--9720
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[269]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9751--9756
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[270]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9787--9792
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[271]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9823--9828
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[272]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9859--9864
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[273]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9895--9900
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[274]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9931--9936
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[275]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 9967--9972
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[276]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10003--10008
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[277]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10039--10044
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[278]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10075--10080
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[279]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10111--10116
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[280]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10147--10152
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[281]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10183--10188
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[282]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10219--10224
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[283]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10255--10260
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[284]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10291--10296
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[285]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10327--10332
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[286]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10363--10368
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[287]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10399--10404
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[288]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10435--10440
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[289]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10471--10476
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[290]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10507--10512
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[291]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10543--10548
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[292]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10579--10584
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[293]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10615--10620
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[294]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10651--10656
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[295]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10687--10692
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[296]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10723--10728
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[297]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10759--10764
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[298]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10795--10800
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[299]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10831--10836
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[300]
+Overfull \hbox (6.63034pt too wide) in paragraph at lines 10867--10872
+[]\OT1/cmr/bx/n/12 Nombre del alumno: $[]$ 
+ []
+
+[301]
+(/Users/alejandrogonzalezturrubiates/Proyectos/Algebra_Lineal/out/Proyecto_Fina
+l_Algebra_Lineal_v2.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 4853 strings out of 474116
+ 76731 string characters out of 5732612
+ 1940187 words of memory out of 5000000
+ 27179 multiletter control sequences out of 15000+600000
+ 565185 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,13n,65p,269b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20240
+312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew
+/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/2024
+0312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebre
+w/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on /Users/alejandrogonzalezturrubiates/Proyectos/Algebra_Lineal/
+out/Proyecto_Final_Algebra_Lineal_v2.pdf (302 pages, 473169 bytes).
+PDF statistics:
+ 1024 PDF objects out of 1200 (max. 8388607)
+ 695 compressed objects within 7 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

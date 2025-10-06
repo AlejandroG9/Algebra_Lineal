@@ -1,0 +1,300 @@
+001: SI LOGRASTE DESCIFRAR ESTE MENSAJE ES PORQUE NO TEMES A LOS RETOS Y AMAS APRENDER.                   | easter
+002: FELICIDADES DEMOSTRASTE QUE EL CONOCIMIENTO ES LA MEJOR CLAVE.                                       | easter
+003: LAS MATRICES TAMBIEN GUARDAN SECRETOS SI SABES COMO INVERTIRLAS.                                     | easter
+004: DESCIFRAR ESTE CODIGO ES ABRIR UNA PUERTA AL MUNDO DE LAS IDEAS.                                     | easter
+005: SI LLEGASTE HASTA AQUI YA ERES PARTE DE LOS QUE PIENSAN CON LOGICA.                                  | easter
+006: LA UAT CONFIA EN TU TALENTO PARA RESOLVER RETOS CON RAZONAMIENTO.                                    | easter
+007: SI PUEDES DESCIFRAR ESTO PUEDES ENFRENTAR CUALQUIER DESAFIO MATEMATICO.                              | easter
+008: LAS ECUACIONES OCULTAN MENSAJES SOLO PARA QUIENES INSISTEN EN ENTENDER.                              | easter
+009: HAY BELLEZA EN CADA MATRIZ Y ORDEN EN CADA VECTOR QUE SABES DESCIFRAR.                               | easter
+010: EL CONOCIMIENTO ES LA UNICA CLAVE QUE ABRE TODAS LAS PUERTAS.                                        | easter
+011: TU MENTE ES MAS PODEROSA QUE CUALQUIER ALGORITMO.                                                    | easter
+012: APRENDER ES DESCIFRAR EL LENGUAJE DEL UNIVERSO.                                                      | easter
+013: CADA DETERMINANTE QUE CALCULAS TE ACERCA MAS AL DOMINIO DEL ORDEN.                                   | easter
+014: LAS MATEMATICAS NO SE MEMORIZAN SE VIVEN.                                                            | easter
+015: ERES PARTE DE UNA GENERACION QUE PIENSA Y CREA CON RAZON.                                            | easter
+016: DESCIFRAR ES PENSAR Y PENSAR ES CREAR.                                                               | easter
+017: NO TODOS VEN EL MENSAJE OCULTO SOLO QUIENES PIENSAN CON LOGICA.                                      | easter
+018: CADA INVERSION DE MATRIZ ES UNA VICTORIA DEL PENSAMIENTO.                                            | easter
+019: LA CLAVE DEL EXITO ESTA EN SABER INVERTIR TUS PROPIAS LIMITES.                                       | easter
+020: ESTE MENSAJE FUE ESCONDIDO EN EL LENGUAJE DE LA RAZON.                                               | easter
+021: SI LOGRASTE DESCIFRAR ESTE MENSAJE ES PORQUE NO TEMES A LOS RETOS Y AMAS APRENDER.                   | easter
+022: FELICIDADES DEMOSTRASTE QUE EL CONOCIMIENTO ES LA MEJOR CLAVE.                                       | easter
+023: LAS MATRICES TAMBIEN GUARDAN SECRETOS SI SABES COMO INVERTIRLAS.                                     | easter
+024: DESCIFRAR ESTE CODIGO ES ABRIR UNA PUERTA AL MUNDO DE LAS IDEAS.                                     | easter
+025: SI LLEGASTE HASTA AQUI YA ERES PARTE DE LOS QUE PIENSAN CON LOGICA.                                  | easter
+026: LA UAT CONFIA EN TU TALENTO PARA RESOLVER RETOS CON RAZONAMIENTO.                                    | easter
+027: SI PUEDES DESCIFRAR ESTO PUEDES ENFRENTAR CUALQUIER DESAFIO MATEMATICO.                              | easter
+028: LAS ECUACIONES OCULTAN MENSAJES SOLO PARA QUIENES INSISTEN EN ENTENDER.                              | easter
+029: HAY BELLEZA EN CADA MATRIZ Y ORDEN EN CADA VECTOR QUE SABES DESCIFRAR.                               | easter
+030: EL CONOCIMIENTO ES LA UNICA CLAVE QUE ABRE TODAS LAS PUERTAS.                                        | easter
+031: TU MENTE ES MAS PODEROSA QUE CUALQUIER ALGORITMO.                                                    | easter
+032: APRENDER ES DESCIFRAR EL LENGUAJE DEL UNIVERSO.                                                      | easter
+033: CADA DETERMINANTE QUE CALCULAS TE ACERCA MAS AL DOMINIO DEL ORDEN.                                   | easter
+034: LAS MATEMATICAS NO SE MEMORIZAN SE VIVEN.                                                            | easter
+035: ERES PARTE DE UNA GENERACION QUE PIENSA Y CREA CON RAZON.                                            | easter
+036: DESCIFRAR ES PENSAR Y PENSAR ES CREAR.                                                               | easter
+037: NO TODOS VEN EL MENSAJE OCULTO SOLO QUIENES PIENSAN CON LOGICA.                                      | easter
+038: CADA INVERSION DE MATRIZ ES UNA VICTORIA DEL PENSAMIENTO.                                            | easter
+039: LA CLAVE DEL EXITO ESTA EN SABER INVERTIR TUS PROPIAS LIMITES.                                       | easter
+040: ESTE MENSAJE FUE ESCONDIDO EN EL LENGUAJE DE LA RAZON.                                               | easter
+041: SI LOGRASTE DESCIFRAR ESTE MENSAJE ES PORQUE NO TEMES A LOS RETOS Y AMAS APRENDER.                   | easter
+042: FELICIDADES DEMOSTRASTE QUE EL CONOCIMIENTO ES LA MEJOR CLAVE.                                       | easter
+043: LAS MATRICES TAMBIEN GUARDAN SECRETOS SI SABES COMO INVERTIRLAS.                                     | easter
+044: DESCIFRAR ESTE CODIGO ES ABRIR UNA PUERTA AL MUNDO DE LAS IDEAS.                                     | easter
+045: SI LLEGASTE HASTA AQUI YA ERES PARTE DE LOS QUE PIENSAN CON LOGICA.                                  | easter
+046: LA UAT CONFIA EN TU TALENTO PARA RESOLVER RETOS CON RAZONAMIENTO.                                    | easter
+047: SI PUEDES DESCIFRAR ESTO PUEDES ENFRENTAR CUALQUIER DESAFIO MATEMATICO.                              | easter
+048: LAS ECUACIONES OCULTAN MENSAJES SOLO PARA QUIENES INSISTEN EN ENTENDER.                              | easter
+049: HAY BELLEZA EN CADA MATRIZ Y ORDEN EN CADA VECTOR QUE SABES DESCIFRAR.                               | easter
+050: EL CONOCIMIENTO ES LA UNICA CLAVE QUE ABRE TODAS LAS PUERTAS.                                        | easter
+051: TU MENTE ES MAS PODEROSA QUE CUALQUIER ALGORITMO.                                                    | easter
+052: APRENDER ES DESCIFRAR EL LENGUAJE DEL UNIVERSO.                                                      | easter
+053: CADA DETERMINANTE QUE CALCULAS TE ACERCA MAS AL DOMINIO DEL ORDEN.                                   | easter
+054: LAS MATEMATICAS NO SE MEMORIZAN SE VIVEN.                                                            | easter
+055: ERES PARTE DE UNA GENERACION QUE PIENSA Y CREA CON RAZON.                                            | easter
+056: DESCIFRAR ES PENSAR Y PENSAR ES CREAR.                                                               | easter
+057: NO TODOS VEN EL MENSAJE OCULTO SOLO QUIENES PIENSAN CON LOGICA.                                      | easter
+058: CADA INVERSION DE MATRIZ ES UNA VICTORIA DEL PENSAMIENTO.                                            | easter
+059: LA CLAVE DEL EXITO ESTA EN SABER INVERTIR TUS PROPIAS LIMITES.                                       | easter
+060: ESTE MENSAJE FUE ESCONDIDO EN EL LENGUAJE DE LA RAZON.                                               | easter
+061: SI LOGRASTE DESCIFRAR ESTE MENSAJE ES PORQUE NO TEMES A LOS RETOS Y AMAS APRENDER.                   | easter
+062: FELICIDADES DEMOSTRASTE QUE EL CONOCIMIENTO ES LA MEJOR CLAVE.                                       | easter
+063: LAS MATRICES TAMBIEN GUARDAN SECRETOS SI SABES COMO INVERTIRLAS.                                     | easter
+064: DESCIFRAR ESTE CODIGO ES ABRIR UNA PUERTA AL MUNDO DE LAS IDEAS.                                     | easter
+065: SI LLEGASTE HASTA AQUI YA ERES PARTE DE LOS QUE PIENSAN CON LOGICA.                                  | easter
+066: LA UAT CONFIA EN TU TALENTO PARA RESOLVER RETOS CON RAZONAMIENTO.                                    | easter
+067: SI PUEDES DESCIFRAR ESTO PUEDES ENFRENTAR CUALQUIER DESAFIO MATEMATICO.                              | easter
+068: LAS ECUACIONES OCULTAN MENSAJES SOLO PARA QUIENES INSISTEN EN ENTENDER.                              | easter
+069: HAY BELLEZA EN CADA MATRIZ Y ORDEN EN CADA VECTOR QUE SABES DESCIFRAR.                               | easter
+070: EL CONOCIMIENTO ES LA UNICA CLAVE QUE ABRE TODAS LAS PUERTAS.                                        | easter
+071: TU MENTE ES MAS PODEROSA QUE CUALQUIER ALGORITMO.                                                    | easter
+072: APRENDER ES DESCIFRAR EL LENGUAJE DEL UNIVERSO.                                                      | easter
+073: CADA DETERMINANTE QUE CALCULAS TE ACERCA MAS AL DOMINIO DEL ORDEN.                                   | easter
+074: LAS MATEMATICAS NO SE MEMORIZAN SE VIVEN.                                                            | easter
+075: ERES PARTE DE UNA GENERACION QUE PIENSA Y CREA CON RAZON.                                            | easter
+076: DESCIFRAR ES PENSAR Y PENSAR ES CREAR.                                                               | easter
+077: NO TODOS VEN EL MENSAJE OCULTO SOLO QUIENES PIENSAN CON LOGICA.                                      | easter
+078: CADA INVERSION DE MATRIZ ES UNA VICTORIA DEL PENSAMIENTO.                                            | easter
+079: LA CLAVE DEL EXITO ESTA EN SABER INVERTIR TUS PROPIAS LIMITES.                                       | easter
+080: ESTE MENSAJE FUE ESCONDIDO EN EL LENGUAJE DE LA RAZON.                                               | easter
+081: SI LOGRASTE DESCIFRAR ESTE MENSAJE ES PORQUE NO TEMES A LOS RETOS Y AMAS APRENDER.                   | easter
+082: FELICIDADES DEMOSTRASTE QUE EL CONOCIMIENTO ES LA MEJOR CLAVE.                                       | easter
+083: LAS MATRICES TAMBIEN GUARDAN SECRETOS SI SABES COMO INVERTIRLAS.                                     | easter
+084: DESCIFRAR ESTE CODIGO ES ABRIR UNA PUERTA AL MUNDO DE LAS IDEAS.                                     | easter
+085: SI LLEGASTE HASTA AQUI YA ERES PARTE DE LOS QUE PIENSAN CON LOGICA.                                  | easter
+086: LA UAT CONFIA EN TU TALENTO PARA RESOLVER RETOS CON RAZONAMIENTO.                                    | easter
+087: SI PUEDES DESCIFRAR ESTO PUEDES ENFRENTAR CUALQUIER DESAFIO MATEMATICO.                              | easter
+088: LAS ECUACIONES OCULTAN MENSAJES SOLO PARA QUIENES INSISTEN EN ENTENDER.                              | easter
+089: HAY BELLEZA EN CADA MATRIZ Y ORDEN EN CADA VECTOR QUE SABES DESCIFRAR.                               | easter
+090: EL CONOCIMIENTO ES LA UNICA CLAVE QUE ABRE TODAS LAS PUERTAS.                                        | easter
+091: TU MENTE ES MAS PODEROSA QUE CUALQUIER ALGORITMO.                                                    | easter
+092: APRENDER ES DESCIFRAR EL LENGUAJE DEL UNIVERSO.                                                      | easter
+093: CADA DETERMINANTE QUE CALCULAS TE ACERCA MAS AL DOMINIO DEL ORDEN.                                   | easter
+094: LAS MATEMATICAS NO SE MEMORIZAN SE VIVEN.                                                            | easter
+095: ERES PARTE DE UNA GENERACION QUE PIENSA Y CREA CON RAZON.                                            | easter
+096: DESCIFRAR ES PENSAR Y PENSAR ES CREAR.                                                               | easter
+097: NO TODOS VEN EL MENSAJE OCULTO SOLO QUIENES PIENSAN CON LOGICA.                                      | easter
+098: CADA INVERSION DE MATRIZ ES UNA VICTORIA DEL PENSAMIENTO.                                            | easter
+099: LA CLAVE DEL EXITO ESTA EN SABER INVERTIR TUS PROPIAS LIMITES.                                       | easter
+100: ESTE MENSAJE FUE ESCONDIDO EN EL LENGUAJE DE LA RAZON.                                               | easter
+101: LA MATEMATICA ES EL ALFABETO CON EL CUAL DIOS ESCRIBIO EL UNIVERSO. GALILEO.                         | celebre
+102: DAR UN PASO HACIA LA SABIDURIA ES DAR UN PASO HACIA LA LIBERTAD. PLATON.                             | celebre
+103: TODO DEBE SER TAN SIMPLE COMO SEA POSIBLE PERO NO MAS SIMPLE. EINSTEIN.                              | celebre
+104: LO IMPORTANTE ES NO DEJAR DE HACERSE PREGUNTAS. EINSTEIN.                                            | celebre
+105: LA CIENCIA NO SOLO ES CONOCIMIENTO ES PASION POR DESCUBRIR. CURIE.                                   | celebre
+106: NO TEMAS A LOS ERRORES NO EXISTEN SIN EL DESEO DE APRENDER. FREUD.                                   | celebre
+107: LA EDUCACION ES EL ARMA MAS PODEROSA PARA CAMBIAR EL MUNDO. MANDELA.                                 | celebre
+108: EL EXITO ES SUMA DE PEQUENOS ESFUERZOS REPETIDOS CADA DIA. COLLIER.                                  | celebre
+109: NO TODO LO QUE SE PUEDE CONTAR CUENTA Y NO TODO LO QUE CUENTA SE PUEDE CONTAR. EINSTEIN.             | celebre
+110: LAS MATEMATICAS SON LA MUSICA DE LA RAZON. LEIBNIZ.                                                  | celebre
+111: APRENDE COMO SI FUERAS A VIVIR PARA SIEMPRE. GANDHI.                                                 | celebre
+112: PENSAR ES TRABAJAR SIN HERRAMIENTAS PERO CON LUZ. DESCARTES.                                         | celebre
+113: NADA EN LA VIDA DEBE TEMERSE SOLO COMPRENDERSE. CURIE.                                               | celebre
+114: LA MENTE ES TODO LO QUE PIENSAS EN ESO TE CONVIERTES. BUDDHA.                                        | celebre
+115: EL CONOCIMIENTO HABLA PERO LA SABIDURIA ESCUCHA. HENDRIX.                                            | celebre
+116: NO HAY CAMINO PARA LA PAZ LA PAZ ES EL CAMINO. GANDHI.                                               | celebre
+117: SI BUSCAS RESULTADOS DISTINTOS NO HAGAS SIEMPRE LO MISMO. EINSTEIN.                                  | celebre
+118: LA VIDA ES UNA ECUACION CON MUCHAS VARIABLES. PITAGORAS.                                             | celebre
+119: LO QUE SE MIDE SE MEJORA. KELVIN.                                                                    | celebre
+120: PENSAR CORRECTAMENTE ES EL PRINCIPIO DE TODO CONOCIMIENTO. ARISTOTELES.                              | celebre
+121: LA MATEMATICA ES EL ALFABETO CON EL CUAL DIOS ESCRIBIO EL UNIVERSO. GALILEO.                         | celebre
+122: DAR UN PASO HACIA LA SABIDURIA ES DAR UN PASO HACIA LA LIBERTAD. PLATON.                             | celebre
+123: TODO DEBE SER TAN SIMPLE COMO SEA POSIBLE PERO NO MAS SIMPLE. EINSTEIN.                              | celebre
+124: LO IMPORTANTE ES NO DEJAR DE HACERSE PREGUNTAS. EINSTEIN.                                            | celebre
+125: LA CIENCIA NO SOLO ES CONOCIMIENTO ES PASION POR DESCUBRIR. CURIE.                                   | celebre
+126: NO TEMAS A LOS ERRORES NO EXISTEN SIN EL DESEO DE APRENDER. FREUD.                                   | celebre
+127: LA EDUCACION ES EL ARMA MAS PODEROSA PARA CAMBIAR EL MUNDO. MANDELA.                                 | celebre
+128: EL EXITO ES SUMA DE PEQUENOS ESFUERZOS REPETIDOS CADA DIA. COLLIER.                                  | celebre
+129: NO TODO LO QUE SE PUEDE CONTAR CUENTA Y NO TODO LO QUE CUENTA SE PUEDE CONTAR. EINSTEIN.             | celebre
+130: LAS MATEMATICAS SON LA MUSICA DE LA RAZON. LEIBNIZ.                                                  | celebre
+131: APRENDE COMO SI FUERAS A VIVIR PARA SIEMPRE. GANDHI.                                                 | celebre
+132: PENSAR ES TRABAJAR SIN HERRAMIENTAS PERO CON LUZ. DESCARTES.                                         | celebre
+133: NADA EN LA VIDA DEBE TEMERSE SOLO COMPRENDERSE. CURIE.                                               | celebre
+134: LA MENTE ES TODO LO QUE PIENSAS EN ESO TE CONVIERTES. BUDDHA.                                        | celebre
+135: EL CONOCIMIENTO HABLA PERO LA SABIDURIA ESCUCHA. HENDRIX.                                            | celebre
+136: NO HAY CAMINO PARA LA PAZ LA PAZ ES EL CAMINO. GANDHI.                                               | celebre
+137: SI BUSCAS RESULTADOS DISTINTOS NO HAGAS SIEMPRE LO MISMO. EINSTEIN.                                  | celebre
+138: LA VIDA ES UNA ECUACION CON MUCHAS VARIABLES. PITAGORAS.                                             | celebre
+139: LO QUE SE MIDE SE MEJORA. KELVIN.                                                                    | celebre
+140: PENSAR CORRECTAMENTE ES EL PRINCIPIO DE TODO CONOCIMIENTO. ARISTOTELES.                              | celebre
+141: LA MATEMATICA ES EL ALFABETO CON EL CUAL DIOS ESCRIBIO EL UNIVERSO. GALILEO.                         | celebre
+142: DAR UN PASO HACIA LA SABIDURIA ES DAR UN PASO HACIA LA LIBERTAD. PLATON.                             | celebre
+143: TODO DEBE SER TAN SIMPLE COMO SEA POSIBLE PERO NO MAS SIMPLE. EINSTEIN.                              | celebre
+144: LO IMPORTANTE ES NO DEJAR DE HACERSE PREGUNTAS. EINSTEIN.                                            | celebre
+145: LA CIENCIA NO SOLO ES CONOCIMIENTO ES PASION POR DESCUBRIR. CURIE.                                   | celebre
+146: NO TEMAS A LOS ERRORES NO EXISTEN SIN EL DESEO DE APRENDER. FREUD.                                   | celebre
+147: LA EDUCACION ES EL ARMA MAS PODEROSA PARA CAMBIAR EL MUNDO. MANDELA.                                 | celebre
+148: EL EXITO ES SUMA DE PEQUENOS ESFUERZOS REPETIDOS CADA DIA. COLLIER.                                  | celebre
+149: NO TODO LO QUE SE PUEDE CONTAR CUENTA Y NO TODO LO QUE CUENTA SE PUEDE CONTAR. EINSTEIN.             | celebre
+150: LAS MATEMATICAS SON LA MUSICA DE LA RAZON. LEIBNIZ.                                                  | celebre
+151: APRENDE COMO SI FUERAS A VIVIR PARA SIEMPRE. GANDHI.                                                 | celebre
+152: PENSAR ES TRABAJAR SIN HERRAMIENTAS PERO CON LUZ. DESCARTES.                                         | celebre
+153: NADA EN LA VIDA DEBE TEMERSE SOLO COMPRENDERSE. CURIE.                                               | celebre
+154: LA MENTE ES TODO LO QUE PIENSAS EN ESO TE CONVIERTES. BUDDHA.                                        | celebre
+155: EL CONOCIMIENTO HABLA PERO LA SABIDURIA ESCUCHA. HENDRIX.                                            | celebre
+156: NO HAY CAMINO PARA LA PAZ LA PAZ ES EL CAMINO. GANDHI.                                               | celebre
+157: SI BUSCAS RESULTADOS DISTINTOS NO HAGAS SIEMPRE LO MISMO. EINSTEIN.                                  | celebre
+158: LA VIDA ES UNA ECUACION CON MUCHAS VARIABLES. PITAGORAS.                                             | celebre
+159: LO QUE SE MIDE SE MEJORA. KELVIN.                                                                    | celebre
+160: PENSAR CORRECTAMENTE ES EL PRINCIPIO DE TODO CONOCIMIENTO. ARISTOTELES.                              | celebre
+161: LA MATEMATICA ES EL ALFABETO CON EL CUAL DIOS ESCRIBIO EL UNIVERSO. GALILEO.                         | celebre
+162: DAR UN PASO HACIA LA SABIDURIA ES DAR UN PASO HACIA LA LIBERTAD. PLATON.                             | celebre
+163: TODO DEBE SER TAN SIMPLE COMO SEA POSIBLE PERO NO MAS SIMPLE. EINSTEIN.                              | celebre
+164: LO IMPORTANTE ES NO DEJAR DE HACERSE PREGUNTAS. EINSTEIN.                                            | celebre
+165: LA CIENCIA NO SOLO ES CONOCIMIENTO ES PASION POR DESCUBRIR. CURIE.                                   | celebre
+166: NO TEMAS A LOS ERRORES NO EXISTEN SIN EL DESEO DE APRENDER. FREUD.                                   | celebre
+167: LA EDUCACION ES EL ARMA MAS PODEROSA PARA CAMBIAR EL MUNDO. MANDELA.                                 | celebre
+168: EL EXITO ES SUMA DE PEQUENOS ESFUERZOS REPETIDOS CADA DIA. COLLIER.                                  | celebre
+169: NO TODO LO QUE SE PUEDE CONTAR CUENTA Y NO TODO LO QUE CUENTA SE PUEDE CONTAR. EINSTEIN.             | celebre
+170: LAS MATEMATICAS SON LA MUSICA DE LA RAZON. LEIBNIZ.                                                  | celebre
+171: APRENDE COMO SI FUERAS A VIVIR PARA SIEMPRE. GANDHI.                                                 | celebre
+172: PENSAR ES TRABAJAR SIN HERRAMIENTAS PERO CON LUZ. DESCARTES.                                         | celebre
+173: NADA EN LA VIDA DEBE TEMERSE SOLO COMPRENDERSE. CURIE.                                               | celebre
+174: LA MENTE ES TODO LO QUE PIENSAS EN ESO TE CONVIERTES. BUDDHA.                                        | celebre
+175: EL CONOCIMIENTO HABLA PERO LA SABIDURIA ESCUCHA. HENDRIX.                                            | celebre
+176: NO HAY CAMINO PARA LA PAZ LA PAZ ES EL CAMINO. GANDHI.                                               | celebre
+177: SI BUSCAS RESULTADOS DISTINTOS NO HAGAS SIEMPRE LO MISMO. EINSTEIN.                                  | celebre
+178: LA VIDA ES UNA ECUACION CON MUCHAS VARIABLES. PITAGORAS.                                             | celebre
+179: LO QUE SE MIDE SE MEJORA. KELVIN.                                                                    | celebre
+180: PENSAR CORRECTAMENTE ES EL PRINCIPIO DE TODO CONOCIMIENTO. ARISTOTELES.                              | celebre
+181: LA MATEMATICA ES EL ALFABETO CON EL CUAL DIOS ESCRIBIO EL UNIVERSO. GALILEO.                         | celebre
+182: DAR UN PASO HACIA LA SABIDURIA ES DAR UN PASO HACIA LA LIBERTAD. PLATON.                             | celebre
+183: TODO DEBE SER TAN SIMPLE COMO SEA POSIBLE PERO NO MAS SIMPLE. EINSTEIN.                              | celebre
+184: LO IMPORTANTE ES NO DEJAR DE HACERSE PREGUNTAS. EINSTEIN.                                            | celebre
+185: LA CIENCIA NO SOLO ES CONOCIMIENTO ES PASION POR DESCUBRIR. CURIE.                                   | celebre
+186: NO TEMAS A LOS ERRORES NO EXISTEN SIN EL DESEO DE APRENDER. FREUD.                                   | celebre
+187: LA EDUCACION ES EL ARMA MAS PODEROSA PARA CAMBIAR EL MUNDO. MANDELA.                                 | celebre
+188: EL EXITO ES SUMA DE PEQUENOS ESFUERZOS REPETIDOS CADA DIA. COLLIER.                                  | celebre
+189: NO TODO LO QUE SE PUEDE CONTAR CUENTA Y NO TODO LO QUE CUENTA SE PUEDE CONTAR. EINSTEIN.             | celebre
+190: LAS MATEMATICAS SON LA MUSICA DE LA RAZON. LEIBNIZ.                                                  | celebre
+191: APRENDE COMO SI FUERAS A VIVIR PARA SIEMPRE. GANDHI.                                                 | celebre
+192: PENSAR ES TRABAJAR SIN HERRAMIENTAS PERO CON LUZ. DESCARTES.                                         | celebre
+193: NADA EN LA VIDA DEBE TEMERSE SOLO COMPRENDERSE. CURIE.                                               | celebre
+194: LA MENTE ES TODO LO QUE PIENSAS EN ESO TE CONVIERTES. BUDDHA.                                        | celebre
+195: EL CONOCIMIENTO HABLA PERO LA SABIDURIA ESCUCHA. HENDRIX.                                            | celebre
+196: NO HAY CAMINO PARA LA PAZ LA PAZ ES EL CAMINO. GANDHI.                                               | celebre
+197: SI BUSCAS RESULTADOS DISTINTOS NO HAGAS SIEMPRE LO MISMO. EINSTEIN.                                  | celebre
+198: LA VIDA ES UNA ECUACION CON MUCHAS VARIABLES. PITAGORAS.                                             | celebre
+199: LO QUE SE MIDE SE MEJORA. KELVIN.                                                                    | celebre
+200: PENSAR CORRECTAMENTE ES EL PRINCIPIO DE TODO CONOCIMIENTO. ARISTOTELES.                              | celebre
+201: CREE EN TI MISMO Y EN LA FUERZA DE TU MENTE. CADA PROBLEMA ES UNA OPORTUNIDAD. CONFUCIO.             | motivacional
+202: NO TE RINDAS CADA ECUACION DIFICIL OCULTA UNA LECCION DE VIDA.                                       | motivacional
+203: ERES CAPAZ DE RESOLVER CUALQUIER SISTEMA SI CREES EN TU LOGICA.                                      | motivacional
+204: CADA MATRIZ ES UN RETO Y CADA RETO UNA NUEVA HISTORIA DE EXITO.                                      | motivacional
+205: APRENDE DE LOS ERRORES Y SIGUE CALCULANDO TU FUTURO.                                                 | motivacional
+206: EL UNICO LIMITE EXISTE EN TU IMAGINACION.                                                            | motivacional
+207: PIENSA EN GRANDE CALCULA CON PRECISION Y SUEÑA SIN LIMITES.                                          | motivacional
+208: NO HAY RESULTADOS SIN PROCESO NI EXITO SIN DETERMINANTE.                                             | motivacional
+209: CADA VECTOR TIENE UNA DIRECCION Y TU TAMBIEN TIENES LA TUYA.                                         | motivacional
+210: EL ESFUERZO CONSTANTE SIEMPRE CONVERGE HACIA EL EXITO.                                               | motivacional
+211: LAS MATEMATICAS NO SON DIFICILES SOLO REQUIEREN PACIENCIA Y CONSTANCIA.                              | motivacional
+212: SI ENCUENTRAS UN ERROR FELICIDADES ESTAS APRENDIENDO.                                                | motivacional
+213: NUNCA SUBESTIMES EL PODER DE UNA MENTE DISCIPLINADA.                                                 | motivacional
+214: EL CONOCIMIENTO TE DA LA LIBERTAD QUE NINGUNA CERRADURA PUEDE LIMITAR.                               | motivacional
+215: CADA DIA ES UNA NUEVA ITERACION PARA MEJORAR TU VIDA.                                                | motivacional
+216: ENFRENTA TUS TEMORES COMO ENFRENTAS UNA MATRIZ INVERTIBLE.                                           | motivacional
+217: NO EXISTE ALGORITMO MAS PODEROSO QUE LA PERSEVERANCIA.                                               | motivacional
+218: LA CONSTANCIA ES EL CAMINO ENTRE EL DESEO Y EL LOGRO.                                                | motivacional
+219: NO SE TRATA DE SABER TODO SINO DE APRENDER SIEMPRE.                                                  | motivacional
+220: EL APRENDIZAJE ES EL UNICO CAMINO QUE NUNCA TERMINA.                                                 | motivacional
+221: CREE EN TI MISMO Y EN LA FUERZA DE TU MENTE. CADA PROBLEMA ES UNA OPORTUNIDAD. CONFUCIO.             | motivacional
+222: NO TE RINDAS CADA ECUACION DIFICIL OCULTA UNA LECCION DE VIDA.                                       | motivacional
+223: ERES CAPAZ DE RESOLVER CUALQUIER SISTEMA SI CREES EN TU LOGICA.                                      | motivacional
+224: CADA MATRIZ ES UN RETO Y CADA RETO UNA NUEVA HISTORIA DE EXITO.                                      | motivacional
+225: APRENDE DE LOS ERRORES Y SIGUE CALCULANDO TU FUTURO.                                                 | motivacional
+226: EL UNICO LIMITE EXISTE EN TU IMAGINACION.                                                            | motivacional
+227: PIENSA EN GRANDE CALCULA CON PRECISION Y SUEÑA SIN LIMITES.                                          | motivacional
+228: NO HAY RESULTADOS SIN PROCESO NI EXITO SIN DETERMINANTE.                                             | motivacional
+229: CADA VECTOR TIENE UNA DIRECCION Y TU TAMBIEN TIENES LA TUYA.                                         | motivacional
+230: EL ESFUERZO CONSTANTE SIEMPRE CONVERGE HACIA EL EXITO.                                               | motivacional
+231: LAS MATEMATICAS NO SON DIFICILES SOLO REQUIEREN PACIENCIA Y CONSTANCIA.                              | motivacional
+232: SI ENCUENTRAS UN ERROR FELICIDADES ESTAS APRENDIENDO.                                                | motivacional
+233: NUNCA SUBESTIMES EL PODER DE UNA MENTE DISCIPLINADA.                                                 | motivacional
+234: EL CONOCIMIENTO TE DA LA LIBERTAD QUE NINGUNA CERRADURA PUEDE LIMITAR.                               | motivacional
+235: CADA DIA ES UNA NUEVA ITERACION PARA MEJORAR TU VIDA.                                                | motivacional
+236: ENFRENTA TUS TEMORES COMO ENFRENTAS UNA MATRIZ INVERTIBLE.                                           | motivacional
+237: NO EXISTE ALGORITMO MAS PODEROSO QUE LA PERSEVERANCIA.                                               | motivacional
+238: LA CONSTANCIA ES EL CAMINO ENTRE EL DESEO Y EL LOGRO.                                                | motivacional
+239: NO SE TRATA DE SABER TODO SINO DE APRENDER SIEMPRE.                                                  | motivacional
+240: EL APRENDIZAJE ES EL UNICO CAMINO QUE NUNCA TERMINA.                                                 | motivacional
+241: CREE EN TI MISMO Y EN LA FUERZA DE TU MENTE. CADA PROBLEMA ES UNA OPORTUNIDAD. CONFUCIO.             | motivacional
+242: NO TE RINDAS CADA ECUACION DIFICIL OCULTA UNA LECCION DE VIDA.                                       | motivacional
+243: ERES CAPAZ DE RESOLVER CUALQUIER SISTEMA SI CREES EN TU LOGICA.                                      | motivacional
+244: CADA MATRIZ ES UN RETO Y CADA RETO UNA NUEVA HISTORIA DE EXITO.                                      | motivacional
+245: APRENDE DE LOS ERRORES Y SIGUE CALCULANDO TU FUTURO.                                                 | motivacional
+246: EL UNICO LIMITE EXISTE EN TU IMAGINACION.                                                            | motivacional
+247: PIENSA EN GRANDE CALCULA CON PRECISION Y SUEÑA SIN LIMITES.                                          | motivacional
+248: NO HAY RESULTADOS SIN PROCESO NI EXITO SIN DETERMINANTE.                                             | motivacional
+249: CADA VECTOR TIENE UNA DIRECCION Y TU TAMBIEN TIENES LA TUYA.                                         | motivacional
+250: EL ESFUERZO CONSTANTE SIEMPRE CONVERGE HACIA EL EXITO.                                               | motivacional
+251: LAS MATEMATICAS NO SON DIFICILES SOLO REQUIEREN PACIENCIA Y CONSTANCIA.                              | motivacional
+252: SI ENCUENTRAS UN ERROR FELICIDADES ESTAS APRENDIENDO.                                                | motivacional
+253: NUNCA SUBESTIMES EL PODER DE UNA MENTE DISCIPLINADA.                                                 | motivacional
+254: EL CONOCIMIENTO TE DA LA LIBERTAD QUE NINGUNA CERRADURA PUEDE LIMITAR.                               | motivacional
+255: CADA DIA ES UNA NUEVA ITERACION PARA MEJORAR TU VIDA.                                                | motivacional
+256: ENFRENTA TUS TEMORES COMO ENFRENTAS UNA MATRIZ INVERTIBLE.                                           | motivacional
+257: NO EXISTE ALGORITMO MAS PODEROSO QUE LA PERSEVERANCIA.                                               | motivacional
+258: LA CONSTANCIA ES EL CAMINO ENTRE EL DESEO Y EL LOGRO.                                                | motivacional
+259: NO SE TRATA DE SABER TODO SINO DE APRENDER SIEMPRE.                                                  | motivacional
+260: EL APRENDIZAJE ES EL UNICO CAMINO QUE NUNCA TERMINA.                                                 | motivacional
+261: CREE EN TI MISMO Y EN LA FUERZA DE TU MENTE. CADA PROBLEMA ES UNA OPORTUNIDAD. CONFUCIO.             | motivacional
+262: NO TE RINDAS CADA ECUACION DIFICIL OCULTA UNA LECCION DE VIDA.                                       | motivacional
+263: ERES CAPAZ DE RESOLVER CUALQUIER SISTEMA SI CREES EN TU LOGICA.                                      | motivacional
+264: CADA MATRIZ ES UN RETO Y CADA RETO UNA NUEVA HISTORIA DE EXITO.                                      | motivacional
+265: APRENDE DE LOS ERRORES Y SIGUE CALCULANDO TU FUTURO.                                                 | motivacional
+266: EL UNICO LIMITE EXISTE EN TU IMAGINACION.                                                            | motivacional
+267: PIENSA EN GRANDE CALCULA CON PRECISION Y SUEÑA SIN LIMITES.                                          | motivacional
+268: NO HAY RESULTADOS SIN PROCESO NI EXITO SIN DETERMINANTE.                                             | motivacional
+269: CADA VECTOR TIENE UNA DIRECCION Y TU TAMBIEN TIENES LA TUYA.                                         | motivacional
+270: EL ESFUERZO CONSTANTE SIEMPRE CONVERGE HACIA EL EXITO.                                               | motivacional
+271: LAS MATEMATICAS NO SON DIFICILES SOLO REQUIEREN PACIENCIA Y CONSTANCIA.                              | motivacional
+272: SI ENCUENTRAS UN ERROR FELICIDADES ESTAS APRENDIENDO.                                                | motivacional
+273: NUNCA SUBESTIMES EL PODER DE UNA MENTE DISCIPLINADA.                                                 | motivacional
+274: EL CONOCIMIENTO TE DA LA LIBERTAD QUE NINGUNA CERRADURA PUEDE LIMITAR.                               | motivacional
+275: CADA DIA ES UNA NUEVA ITERACION PARA MEJORAR TU VIDA.                                                | motivacional
+276: ENFRENTA TUS TEMORES COMO ENFRENTAS UNA MATRIZ INVERTIBLE.                                           | motivacional
+277: NO EXISTE ALGORITMO MAS PODEROSO QUE LA PERSEVERANCIA.                                               | motivacional
+278: LA CONSTANCIA ES EL CAMINO ENTRE EL DESEO Y EL LOGRO.                                                | motivacional
+279: NO SE TRATA DE SABER TODO SINO DE APRENDER SIEMPRE.                                                  | motivacional
+280: EL APRENDIZAJE ES EL UNICO CAMINO QUE NUNCA TERMINA.                                                 | motivacional
+281: CREE EN TI MISMO Y EN LA FUERZA DE TU MENTE. CADA PROBLEMA ES UNA OPORTUNIDAD. CONFUCIO.             | motivacional
+282: NO TE RINDAS CADA ECUACION DIFICIL OCULTA UNA LECCION DE VIDA.                                       | motivacional
+283: ERES CAPAZ DE RESOLVER CUALQUIER SISTEMA SI CREES EN TU LOGICA.                                      | motivacional
+284: CADA MATRIZ ES UN RETO Y CADA RETO UNA NUEVA HISTORIA DE EXITO.                                      | motivacional
+285: APRENDE DE LOS ERRORES Y SIGUE CALCULANDO TU FUTURO.                                                 | motivacional
+286: EL UNICO LIMITE EXISTE EN TU IMAGINACION.                                                            | motivacional
+287: PIENSA EN GRANDE CALCULA CON PRECISION Y SUEÑA SIN LIMITES.                                          | motivacional
+288: NO HAY RESULTADOS SIN PROCESO NI EXITO SIN DETERMINANTE.                                             | motivacional
+289: CADA VECTOR TIENE UNA DIRECCION Y TU TAMBIEN TIENES LA TUYA.                                         | motivacional
+290: EL ESFUERZO CONSTANTE SIEMPRE CONVERGE HACIA EL EXITO.                                               | motivacional
+291: LAS MATEMATICAS NO SON DIFICILES SOLO REQUIEREN PACIENCIA Y CONSTANCIA.                              | motivacional
+292: SI ENCUENTRAS UN ERROR FELICIDADES ESTAS APRENDIENDO.                                                | motivacional
+293: NUNCA SUBESTIMES EL PODER DE UNA MENTE DISCIPLINADA.                                                 | motivacional
+294: EL CONOCIMIENTO TE DA LA LIBERTAD QUE NINGUNA CERRADURA PUEDE LIMITAR.                               | motivacional
+295: CADA DIA ES UNA NUEVA ITERACION PARA MEJORAR TU VIDA.                                                | motivacional
+296: ENFRENTA TUS TEMORES COMO ENFRENTAS UNA MATRIZ INVERTIBLE.                                           | motivacional
+297: NO EXISTE ALGORITMO MAS PODEROSO QUE LA PERSEVERANCIA.                                               | motivacional
+298: LA CONSTANCIA ES EL CAMINO ENTRE EL DESEO Y EL LOGRO.                                                | motivacional
+299: NO SE TRATA DE SABER TODO SINO DE APRENDER SIEMPRE.                                                  | motivacional
+300: EL APRENDIZAJE ES EL UNICO CAMINO QUE NUNCA TERMINA.                                                 | motivacional

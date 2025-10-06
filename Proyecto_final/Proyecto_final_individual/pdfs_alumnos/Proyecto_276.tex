@@ -1,0 +1,103 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[utf8]{inputenc}%
+\usepackage[T1]{fontenc}%
+\usepackage{amsmath, amssymb, setspace, fancyhdr}%
+%
+\pagestyle{fancy}%
+\fancyhf{}%
+\lhead{Facultad de Ingeniería Tampico – UAT}%
+\rhead{Proyecto Final de Álgebra Lineal}%
+\setlength{\headheight}{16pt}%
+%
+\begin{document}%
+\12pt%
+% ======================================================
+% Archivo: instrucciones_y_ejemplo.tex
+% ======================================================
+\section*{Instrucciones del proyecto}
+
+Este proyecto tiene como objetivo aplicar los conceptos de álgebra lineal al proceso de
+\textbf{cifrado y descifrado de mensajes mediante matrices}.
+Cada alumno recibe una \textbf{matriz llave $K$} y una \textbf{cadena de números cifrados}.
+Su tarea consiste en:
+
+\begin{enumerate}
+    \item Calcular la matriz inversa $K^{-1}$ en el cuerpo $\mathbb{Z}_{29}$.
+    \item Multiplicar $K^{-1}$ por los vectores de la cadena cifrada (en bloques de 3 en 3 números).
+    \item Obtener la secuencia numérica original y convertirla a texto según la tabla de equivalencias.
+\end{enumerate}
+
+El mensaje resultante será una frase de aproximadamente 100 caracteres.
+Presente todos los cálculos y procedimientos en el espacio indicado.
+
+\bigskip
+\section*{Ejemplo de descifrado}
+
+Suponga que se le da la siguiente matriz y cadena cifrada:
+
+\[
+K =
+\begin{pmatrix}
+2 & 5 & 7 \\
+1 & 6 & 3 \\
+4 & 0 & 8
+\end{pmatrix},
+\quad
+\text{Cadena cifrada: } [7,\, 18,\, 3,\, 4,\, 9,\, 2,\, 15,\, 21,\, 5]
+\]
+
+\begin{enumerate}
+    \item Calcule $K^{-1} \pmod{29}$.
+    \item Agrupe los números en vectores columna de tamaño 3: $(7,18,3)$, $(4,9,2)$, $(15,21,5)$.
+    \item Multiplique $K^{-1}$ por cada vector y obtenga el mensaje original.
+    \item Convierta los números resultantes a letras con la tabla del curso.
+\end{enumerate}
+
+\bigskip
+\hrule
+\bigskip%
+
+\textbf{Proyecto 276}\\[2pt]
+\hrule
+\bigskip
+
+\textbf{Nombre del alumno:} \underline{\hspace{8cm}}\\[8pt]
+\textbf{Matrícula:} \underline{\hspace{4cm}} \hspace{1cm}
+\textbf{Grupo:} \underline{\hspace{2cm}} \hspace{1cm}
+\textbf{Fecha de entrega:} \underline{\hspace{2.5cm}}\\[12pt]
+
+\textbf{Matriz llave:}
+\[
+K = \begin{pmatrix}
+14 & 19 & 19 \\
+7 & 16 & 8 \\
+18 & 24 & 24
+\end{pmatrix} \pmod{29}
+\]
+
+\textbf{Cadena cifrada:}
+\begin{center}
+$\begin{array}{lllllllllllllll}
+24 & 14 & 27 & 19 & 23 & 17 & 9 & 20 & 28 & 19 & 12 & 11 & 26 & 14 & 11\\
+3 & 3 & 23 & 0 & 5 & 7 & 19 & 4 & 2 & 26 & 27 & 13 & 4 & 17 & 3\\
+19 & 17 & 8 & 18 & 1 & 13 & 28 & 14 & 2 & 1 & 4 & 13 & 15 & 2 & 1\\
+0 & 13 & 0 & 6 & 1 & 18 & 2 & 5 & 1 & 26 & 16 & 26 & 28 & 22 & 5\\
+22 & 11 & 15 & 12 & 11 & 11 & 9 & 12 & 20 & 23 & 14 & 10 & 25 & 18 & 27\\
+6 & 11 & 27 & 20 & 11 & 23 & 26 & 22 & 28 & 5 & 1 & 24 & 3 & 8 & 9\\
+14 & 7 & 13 & 13 & 16 & 24 & 3 & 14 & 23\\
+\end{array}$
+\end{center}
+
+\bigskip
+\textbf{Espacio para cálculos y observaciones:}\\[6pt]
+\rule{\linewidth}{0.4pt}\\[10pt]
+\rule{\linewidth}{0.4pt}\\[10pt]
+\rule{\linewidth}{0.4pt}\\[10pt]
+\rule{\linewidth}{0.4pt}\\[10pt]
+%
+\end{document}
