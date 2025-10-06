@@ -3,11 +3,17 @@
 
 import json, random
 from hill_3x3_gauss import package_for_student, pretty_matrix
+#from hill_3x3_gauss_enteros import package_for_student, pretty_matrix
 
 carpeta = "frases/"
 RUTA_FRASES = f"{carpeta}frases_300_motivacionales_v3.txt"
 SALIDA_DOCENTE = f"{carpeta}paquetes_300_docente.json"
 SALIDA_ALUMNOS = f"{carpeta}paquetes_300_alumnos.json"
+
+
+#RUTA_FRASES = f"{carpeta}frases_120_cortas.txt"
+#SALIDA_DOCENTE = f"{carpeta}paquetes_docente_120_enteros.json"
+#SALIDA_ALUMNOS = f"{carpeta}paquetes_alumnos_120_enteros.json"
 
 # Leer frases y tipo (sin alterar longitud ni borrar espacios internos)
 frases, tipos = [], []
