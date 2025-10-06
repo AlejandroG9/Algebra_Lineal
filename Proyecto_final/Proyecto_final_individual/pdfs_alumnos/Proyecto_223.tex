@@ -4,10 +4,13 @@
 \usepackage{lmodern}%
 \usepackage{textcomp}%
 \usepackage{lastpage}%
-\usepackage[utf8]{inputenc}%
+\usepackage[a4paper, margin=2.5cm, headheight=16pt]{geometry}%
+\usepackage[spanish,es-noshorthands]{babel}%
 \usepackage[T1]{fontenc}%
 \usepackage{amsmath, amssymb, setspace, fancyhdr}%
 %
+\renewcommand\normalsize{\fontsize{12}{14}\selectfont}%
+\normalsize%
 \pagestyle{fancy}%
 \fancyhf{}%
 \lhead{Facultad de Ingeniería Tampico – UAT}%
@@ -15,7 +18,7 @@
 \setlength{\headheight}{16pt}%
 %
 \begin{document}%
-\12pt%
+\normalsize%
 % ======================================================
 % Archivo: instrucciones_y_ejemplo.tex
 % ======================================================
@@ -27,15 +30,16 @@ Cada alumno recibe una \textbf{matriz llave $K$} y una \textbf{cadena de número
 Su tarea consiste en:
 
 \begin{enumerate}
-    \item Calcular la matriz inversa $K^{-1}$ en el cuerpo $\mathbb{Z}_{29}$.
-    \item Multiplicar $K^{-1}$ por los vectores de la cadena cifrada (en bloques de 3 en 3 números).
-    \item Obtener la secuencia numérica original y convertirla a texto según la tabla de equivalencias.
+    \item Calcular la matriz inversa $K^{-1}$ utilizando el \textbf{método de Gauss–Jordan}.
+    \item Multiplicar la matriz inversa $K^{-1}$ por los vectores de la cadena cifrada (en bloques de 3 en 3 números).
+    \item Obtener la secuencia numérica original y convertirla a texto según la tabla de equivalencias proporcionada.
 \end{enumerate}
 
-El mensaje resultante será una frase de aproximadamente 100 caracteres.
-Presente todos los cálculos y procedimientos en el espacio indicado.
+El mensaje resultante corresponderá a una frase corta que deberá descifrarse correctamente.
+Presente todos los cálculos y procedimientos paso a paso en el espacio indicado.
 
 \bigskip
+
 \section*{Ejemplo de descifrado}
 
 Suponga que se le da la siguiente matriz y cadena cifrada:
@@ -52,44 +56,148 @@ K =
 \]
 
 \begin{enumerate}
-    \item Calcule $K^{-1} \pmod{29}$.
-    \item Agrupe los números en vectores columna de tamaño 3: $(7,18,3)$, $(4,9,2)$, $(15,21,5)$.
-    \item Multiplique $K^{-1}$ por cada vector y obtenga el mensaje original.
-    \item Convierta los números resultantes a letras con la tabla del curso.
+    \item \textbf{Calcular la matriz inversa $K^{-1}$ utilizando el método de Gauss–Jordan.}
+
+    Para ello, se forma la matriz aumentada:
+
+    \[
+    [K \,|\, I] =
+    \begin{pmatrix}
+    2 & 5 & 7 & 1 & 0 & 0 \\
+    1 & 6 & 3 & 0 & 1 & 0 \\
+    4 & 0 & 8 & 0 & 0 & 1
+    \end{pmatrix}
+    \]
+
+    Luego, aplicando operaciones elementales de fila (intercambio, multiplicación y suma), se transforma la parte izquierda en la identidad.
+    El resultado final es:
+
+    \[
+    [I \,|\, K^{-1}] =
+    \begin{pmatrix}
+    1 & 0 & 0 & 0.50 & -0.39 & -0.22 \\
+    0 & 1 & 0 & -0.10 & 0.26 & -0.09 \\
+    0 & 0 & 1 & -0.25 & 0.24 & 0.18
+    \end{pmatrix}
+    \quad \Rightarrow \quad
+    K^{-1} =
+    \begin{pmatrix}
+    0.50 & -0.39 & -0.22 \\
+    -0.10 & 0.26 & -0.09 \\
+    -0.25 & 0.24 & 0.18
+    \end{pmatrix}
+    \]
+
+    \item \textbf{Agrupar la cadena cifrada en vectores de tamaño 3:}
+    \[
+    (7,18,3), \quad (4,9,2), \quad (15,21,5)
+    \]
+
+    \item \textbf{Multiplicar $K^{-1}$ por cada vector} para recuperar los números originales del mensaje.
+    Por ejemplo, para el primer bloque:
+
+    \[
+    \begin{pmatrix}
+    0.50 & -0.39 & -0.22 \\
+    -0.10 & 0.26 & -0.09 \\
+    -0.25 & 0.24 & 0.18
+    \end{pmatrix}
+    \begin{pmatrix}
+    7 \\ 18 \\ 3
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+    0.50(7) - 0.39(18) - 0.22(3) \\
+    -0.10(7) + 0.26(18) - 0.09(3) \\
+    -0.25(7) + 0.24(18) + 0.18(3)
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+    0.83 \\ 3.03 \\ 1.45
+    \end{pmatrix}
+    \approx
+    \begin{pmatrix}
+    1 \\ 3 \\ 1
+    \end{pmatrix}
+    \]
+
+    Repitiendo este proceso para los demás bloques, se obtienen los números descifrados.
+
+    \item \textbf{Convertir los números a letras} utilizando la siguiente tabla de equivalencias:
+
+    \begin{center}
+    \renewcommand{\arraystretch}{1.2}
+    \small
+    \begin{tabular}{cccccc}
+    A=1 & B=2 & C=3 & D=4 & E=5 & F=6 \\
+    G=7 & H=8 & I=9 & J=10 & K=11 & L=12 \\
+    M=13 & N=14 & O=15 & P=16 & Q=17 & R=18 \\
+    S=19 & T=20 & U=21 & V=22 & W=23 & X=24 \\
+    Y=25 & Z=26 & Espacio=27 & ,=28 & .=29 &
+    \end{tabular}
+    \end{center}
+
+    \item \textbf{Interpretar el mensaje obtenido.}
+
+    Supongamos que el resultado final es:
+
+    \[
+    [3,\, 15,\, 4,\, 9,\, 7,\, 15,\, 27,\, 19,\, 5,\, 3,\, 18,\, 5,\, 20,\, 15]
+    \]
+
+    Usando la tabla anterior:
+
+    \[
+    \text{C O D I G O (espacio) S E C R E T O}
+    \]
+
+    Por lo tanto, el mensaje descifrado es:
+
+    \[
+    \boxed{\text{CODIGO SECRETO}}
+    \]
 \end{enumerate}
+
+\bigskip
+\textit{Nota: el propósito de este ejemplo es ilustrar el procedimiento paso a paso del método de Gauss–Jordan.
+Cada alumno deberá aplicar el mismo proceso con su propia matriz y cadena cifrada.}
 
 \bigskip
 \hrule
 \bigskip%
 
-\textbf{Proyecto 223}\\[2pt]
-\hrule
-\bigskip
+\newpage
+\vspace{0.5em}
+\noindent\textbf{Proyecto 223}\\%\\[0.5cm]
+\noindent\hrule
+\vspace{1em}
 
-\textbf{Nombre del alumno:} \underline{\hspace{8cm}}\\[8pt]
-\textbf{Matrícula:} \underline{\hspace{4cm}} \hspace{1cm}
-\textbf{Grupo:} \underline{\hspace{2cm}} \hspace{1cm}
+\noindent\textbf{Nombre del alumno:} \underline{\hspace{11.8cm}}\\[8pt]
+\noindent\textbf{Matrícula:} \underline{\hspace{4cm}} 
+\textbf{Grupo:} \underline{\hspace{1.9cm}}
 \textbf{Fecha de entrega:} \underline{\hspace{2.5cm}}\\[12pt]
 
 \textbf{Matriz llave:}
 \[
 K = \begin{pmatrix}
-13 & 25 & 4 \\
-17 & 20 & 23 \\
-21 & 19 & 9
+3.0 & 7.0 & 2.0 \\
+2.0 & 1.0 & 1.0 \\
+2.0 & 6.0 & 1.0
 \end{pmatrix} \pmod{29}
 \]
 
 \textbf{Cadena cifrada:}
 \begin{center}
 $\begin{array}{lllllllllllllll}
-18 & 20 & 28 & 13 & 4 & 15 & 9 & 21 & 27 & 24 & 2 & 16 & 27 & 15 & 20\\
-15 & 1 & 9 & 22 & 11 & 9 & 11 & 19 & 19 & 16 & 22 & 20 & 25 & 18 & 17\\
-13 & 16 & 1 & 21 & 16 & 13 & 9 & 6 & 9 & 22 & 11 & 9 & 1 & 25 & 22\\
-1 & 26 & 28 & 3 & 9 & 1 & 15 & 23 & 19 & 15 & 1 & 22 & 12 & 28 & 5\\
-13 & 2 & 1 & 19 & 10 & 6 & 8 & 18 & 20 & 26 & 0 & 5 & 9 & 2 & 10\\
-18 & 17 & 24 & 8 & 24 & 3 & 12 & 20 & 10 & 25 & 10 & 16 & 20 & 0 & 28\\
-18 & 11 & 9 & 28 & 18 & 3 & 4 & 23 & 3 & 23 & 4 & 28\\
+201.0 & 70.0 & 145.0 & 81.0 & 42.0 & 47.0 & 217.0 & 77.0 & 167.0 & 228.0 & 71.0 & 176.0 \\
+75.0 & 45.0 & 50.0 & 232.0 & 76.0 & 171.0 & 148.0 & 61.0 & 106.0 & 229.0 & 88.0 & 168.0 \\
+76.0 & 38.0 & 53.0 & 216.0 & 80.0 & 155.0 & 159.0 & 64.0 & 109.0 & 201.0 & 43.0 & 163.0 \\
+219.0 & 82.0 & 157.0 & 148.0 & 61.0 & 106.0 & 154.0 & 78.0 & 103.0 & 175.0 & 38.0 & 143.0 \\
+266.0 & 77.0 & 207.0 & 310.0 & 106.0 & 231.0 & 119.0 & 55.0 & 80.0 & 136.0 & 65.0 & 90.0 \\
+143.0 & 29.0 & 119.0 & 81.0 & 40.0 & 55.0 & 194.0 & 30.0 & 165.0 & 213.0 & 67.0 & 167.0 \\
+200.0 & 57.0 & 157.0 & 70.0 & 34.0 & 39.0 & 151.0 & 36.0 & 116.0 & 121.0 & 28.0 & 98.0 \\
+263.0 & 71.0 & 201.0 & 123.0 & 26.0 & 101.0 & 153.0 & 44.0 & 114.0 & 248.0 & 59.0 & 194.0 \\
+76.0 & 33.0 & 48.0 & 229.0 & 77.0 & 167.0
 \end{array}$
 \end{center}
 
