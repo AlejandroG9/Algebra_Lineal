@@ -1,0 +1,140 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=2cm, top=1.5cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+
+\usepackage{macros_simple}
+\graphicspath{{logos/}{../logos/}}
+
+\begin{document}
+
+% ============================================================
+%  ENCABEZADO INSTITUCIONAL
+% ============================================================
+\noindent
+\begin{minipage}[c]{2.5cm}
+  \includegraphics[width=2.4cm]{uat_logo.png}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{10cm}
+  \centering
+  {\small\textbf{UNIVERSIDAD AUTÓNOMA DE TAMAULIPAS}}\\[2pt]
+  {\small\textbf{Facultad de Ingeniería Tampico}}\\[6pt]
+  {\large\textbf{EXAMEN DEPARTAMENTAL — VERSIÓN B}}\\[2pt]
+  {\normalsize\textbf{Álgebra Lineal}}\\[4pt]
+  {\small Multiplicación de Matrices y Método de Gauss}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{2.5cm}
+  \raggedleft\includegraphics[width=2.4cm]{sigc_logo.png}
+\end{minipage}
+
+\vspace{0.2cm}
+\noindent\rule{\textwidth}{0.8pt}
+
+% ---- Datos ----
+\vspace{0.2cm}
+\noindent
+\begin{tabular}{@{}ll@{\hspace{1cm}}ll@{\hspace{1cm}}ll@{}}
+  \textbf{Periodo Escolar:} & \underline{\hspace{3.5cm}} &
+  \textbf{Fecha:}           & \underline{\hspace{3cm}}   &
+  \textbf{Calif.:}          & \underline{\hspace{1.8cm}}
+\end{tabular}
+
+\vspace{0.35cm}
+\noindent
+\begin{tabular}{@{}ll@{\hspace{0.4cm}}ll@{\hspace{0.4cm}}ll@{}}
+  \textbf{Integrante 1:} & \underline{\hspace{5.8cm}} &
+  \textbf{Matr.:}        & \underline{\hspace{2.2cm}} &
+  \textbf{Grupo:}        & \underline{\hspace{1.3cm}}
+\end{tabular}
+
+\vspace{0.3cm}
+\noindent
+\begin{tabular}{@{}ll@{\hspace{0.4cm}}ll@{}}
+  \textbf{Integrante 2:} & \underline{\hspace{5.8cm}} &
+  \textbf{Matr.:}        & \underline{\hspace{2.2cm}}
+\end{tabular}
+
+\vspace{0.2cm}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{0.15cm}
+
+\noindent\textbf{Instrucciones:} Examen en \textbf{equipos de dos personas}. Muestren todo el procedimiento; el resultado sin desarrollo no tiene valor. Valor total: 100 pts.
+
+\vspace{0.5cm}
+
+% ============================================================
+%  EJERCICIOS
+% ============================================================
+
+\begin{ejercicio}[30 pts.]
+Calcule el producto $A \cdot B$, dado que:
+\[
+A = \begin{pmatrix} 1 & 0 & 2 \\ -1 & 3 & 1 \end{pmatrix}, \qquad
+B = \begin{pmatrix} 3 & 1 \\ 2 & 1 \\ 1 & 0 \end{pmatrix}
+\]
+Antes de calcular, indique las dimensiones de $A$, $B$ y del resultado $A\cdot B$.
+\end{ejercicio}
+
+\muestraSolucion{%
+$A$ es $2\times 3$, $B$ es $3\times 2$ $\Rightarrow$ $A\cdot B$ es $2\times 2$.
+\[
+A\cdot B = \begin{pmatrix}
+1(3)+0(2)+2(1) & 1(1)+0(1)+2(0)\\
+(-1)(3)+3(2)+1(1) & (-1)(1)+3(1)+1(0)
+\end{pmatrix}
+= \begin{pmatrix} 5 & 1 \\ 4 & 2 \end{pmatrix}
+\]
+}
+
+\vspace{6cm}
+
+\begin{ejercicio}[30 pts.]
+Calcule el producto $A \cdot B$, dado que:
+\[
+A = \begin{pmatrix} 2 & 4 \\ 1 & -3 \\ 0 & 5 \end{pmatrix}, \qquad
+B = \begin{pmatrix} 3 & 1 & 2 \\ 4 & -1 & 0 \end{pmatrix}
+\]
+Antes de calcular, indique las dimensiones de $A$, $B$ y del resultado $A\cdot B$.
+\end{ejercicio}
+
+\muestraSolucion{%
+$A$ es $3\times 2$, $B$ es $2\times 3$ $\Rightarrow$ $A\cdot B$ es $3\times 3$.
+\[
+A\cdot B = \begin{pmatrix}
+2(3)+4(4) & 2(1)+4(-1) & 2(2)+4(0)\\
+1(3)+(-3)(4) & 1(1)+(-3)(-1) & 1(2)+(-3)(0)\\
+0(3)+5(4) & 0(1)+5(-1) & 0(2)+5(0)
+\end{pmatrix}
+= \begin{pmatrix} 22 & -2 & 4 \\ -9 & 4 & 2 \\ 20 & -5 & 0 \end{pmatrix}
+\]
+}
+
+\vspace{6cm}
+
+\begin{ejercicio}[40 pts.]
+Resuelva el siguiente sistema usando el \textbf{método de Gauss} (eliminación gaussiana).
+Muestre la matriz aumentada y cada operación elemental de fila realizada.
+\[
+\begin{cases}
+x + y + z = 6\\
+2x - y + z = 6\\
+x + y + 2z = 9
+\end{cases}
+\]
+\end{ejercicio}
+
+\muestraSolucion{%
+\[
+\left[\begin{array}{ccc|c}1&1&1&6\\2&-1&1&6\\1&1&2&9\end{array}\right]
+\xrightarrow{\substack{R_2\to R_2-2R_1\\R_3\to R_3-R_1}}
+\left[\begin{array}{ccc|c}1&1&1&6\\0&-3&-1&-6\\0&0&1&3\end{array}\right]
+\]
+$z=3$;\quad $-3y-3=-6\Rightarrow y=1$;\quad $x=6-1-3=2$.
+\[\boxed{x=2,\quad y=1,\quad z=3}\]
+}
+
+\end{document}

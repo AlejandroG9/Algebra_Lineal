@@ -33,14 +33,14 @@
 \AtBeginDocument{\RenewCommandCopy\qty\SI}
 
 % ====== Macros del proyecto (controla soluciones y encabezado) ======
-\usepackage[solucion]{macros}  % cambia a [nosolucion] si quieres ocultarlas
+\usepackage[nosolucion]{macros}  % cambia a [nosolucion] si quieres ocultarlas
 
 % Encabezado superior (izquierda, centro, derecha)
 \setupEncabezado{Problemarios}{Módulo 1: Números Imaginarios Puros}{Álgebra Lineal}
 
 % ====== Metadatos ======
-\title{\Huge Problemarios de Álgebra Lineal\\[4pt]
-\Large Módulo 1: Números Imaginarios Puros}
+\title{\Huge Problemarios de Álgebra Lineal\\[4pt]}
+%\Large Módulo 1: Números Imaginarios Puros}
 \author{%
 Facultad de Ingeniería Tampico -- UAT\\[4pt]
 \textbf{Autores:}\\
@@ -67,6 +67,9 @@ Dr.\ Juan Enrique Bermea Barrios
 \input{sections/12-numeros-complejos-multiplicacion}
 \input{sections/13-numeros-complejos-division}
 \input{sections/20-division_polinomios}
+\input{sections/30-matrices_sumas}
+\input{sections/31-matrices_multiplicacion}
+\input{sections/32-matrices-metodo-gauss}
 
 % Placeholders de módulos futuros
 % \input{sections/10-numeros_complejos}

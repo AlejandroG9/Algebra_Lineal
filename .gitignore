@@ -1,2 +1,12 @@
 .venv/
 Proyecto_final/Proyecto_final_individual/pdfs_alumnos
+
+# basura ignorada
+.DS_Store
+._.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+venv/
+.venv/

@@ -2,8 +2,8 @@
 # Genera 300 matrices llave y mensajes cifrados, exportando versión docente y versión alumno.
 
 import json, random
-from hill_3x3_gauss import package_for_student, pretty_matrix
-#from hill_3x3_gauss_enteros import package_for_student, pretty_matrix
+#from hill_3x3_gauss import package_for_student, pretty_matrix
+from hill_3x3_gauss_enteros import package_for_student, pretty_matrix
 
 carpeta = "frases/"
 RUTA_FRASES = f"{carpeta}frases_300_motivacionales_v3.txt"

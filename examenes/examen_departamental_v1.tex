@@ -1,0 +1,139 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=2cm, top=1.5cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+
+\usepackage{macros_simple}
+\graphicspath{{logos/}{../logos/}}
+
+\begin{document}
+
+% ============================================================
+%  ENCABEZADO INSTITUCIONAL
+% ============================================================
+\noindent
+\begin{minipage}[c]{2.5cm}
+  \includegraphics[width=2.4cm]{uat_logo.png}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{10cm}
+  \centering
+  {\small\textbf{UNIVERSIDAD AUTÓNOMA DE TAMAULIPAS}}\\[2pt]
+  {\small\textbf{Facultad de Ingeniería Tampico}}\\[6pt]
+  {\large\textbf{EXAMEN DEPARTAMENTAL — VERSIÓN A}}\\[2pt]
+  {\normalsize\textbf{Álgebra Lineal}}\\[4pt]
+  {\small Multiplicación de Matrices y Método de Gauss}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{2.5cm}
+  \raggedleft\includegraphics[width=2.4cm]{sigc_logo.png}
+\end{minipage}
+
+\vspace{0.2cm}
+\noindent\rule{\textwidth}{0.8pt}
+
+% ---- Datos ----
+\vspace{0.2cm}
+\noindent
+\begin{tabular}{@{}ll@{\hspace{1cm}}ll@{\hspace{1cm}}ll@{}}
+  \textbf{Periodo Escolar:} & \underline{\hspace{3.5cm}} &
+  \textbf{Fecha:}           & \underline{\hspace{3cm}}   &
+  \textbf{Calif.:}          & \underline{\hspace{1.8cm}}
+\end{tabular}
+
+\vspace{0.35cm}
+\noindent
+\begin{tabular}{@{}ll@{\hspace{0.4cm}}ll@{\hspace{0.4cm}}ll@{}}
+  \textbf{Integrante 1:} & \underline{\hspace{5.8cm}} &
+  \textbf{Matr.:}        & \underline{\hspace{2.2cm}} &
+  \textbf{Grupo:}        & \underline{\hspace{1.3cm}}
+\end{tabular}
+
+\vspace{0.3cm}
+\noindent
+\begin{tabular}{@{}ll@{\hspace{0.4cm}}ll@{}}
+  \textbf{Integrante 2:} & \underline{\hspace{5.8cm}} &
+  \textbf{Matr.:}        & \underline{\hspace{2.2cm}}
+\end{tabular}
+
+\vspace{0.2cm}
+\noindent\rule{\textwidth}{0.8pt}
+\vspace{0.15cm}
+
+\noindent\textbf{Instrucciones:} Examen en \textbf{equipos de dos personas}. Muestren todo el procedimiento; el resultado sin desarrollo no tiene valor. Valor total: 100 pts.
+
+\vspace{0.5cm}
+
+% ============================================================
+%  EJERCICIOS
+% ============================================================
+
+\begin{ejercicio}[30 pts.]
+Calcule el producto $A \cdot B$, dado que:
+\[
+A = \begin{pmatrix} 2 & 0 \\ -1 & 3 \end{pmatrix}, \qquad
+B = \begin{pmatrix} 4 & -2 \\ 1 & 5 \end{pmatrix}
+\]
+Antes de calcular, indique las dimensiones de $A$, $B$ y del resultado $A\cdot B$.
+\end{ejercicio}
+
+\muestraSolucion{%
+$A$ y $B$ son $2\times 2$ $\Rightarrow$ $A\cdot B$ es $2\times 2$.
+\[
+A\cdot B = \begin{pmatrix} 2(4)+0(1) & 2(-2)+0(5)\\ (-1)(4)+3(1) & (-1)(-2)+3(5) \end{pmatrix}
+= \begin{pmatrix} 8 & -4 \\ -1 & 17 \end{pmatrix}
+\]
+}
+
+\vspace{6cm}
+
+\begin{ejercicio}[30 pts.]
+Calcule el producto $A \cdot B$, dado que:
+\[
+A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{pmatrix}, \qquad
+B = \begin{pmatrix} 7 & 8 & 9 \\ 10 & 11 & 12 \end{pmatrix}
+\]
+Antes de calcular, indique las dimensiones de $A$, $B$ y del resultado $A\cdot B$.
+\end{ejercicio}
+
+\muestraSolucion{%
+$A$ es $3\times 2$, $B$ es $2\times 3$ $\Rightarrow$ $A\cdot B$ es $3\times 3$.
+\[
+A\cdot B = \begin{pmatrix}
+1(7)+2(10) & 1(8)+2(11) & 1(9)+2(12)\\
+3(7)+4(10) & 3(8)+4(11) & 3(9)+4(12)\\
+5(7)+6(10) & 5(8)+6(11) & 5(9)+6(12)
+\end{pmatrix}
+= \begin{pmatrix} 27 & 30 & 33 \\ 61 & 68 & 75 \\ 95 & 106 & 117 \end{pmatrix}
+\]
+}
+
+\vspace{6cm}
+
+\begin{ejercicio}[40 pts.]
+Resuelva el siguiente sistema usando el \textbf{método de Gauss} (eliminación gaussiana).
+Muestre la matriz aumentada y cada operación elemental de fila realizada.
+\[
+\begin{cases}
+x - y + z = 2\\
+2x + y + 3z = 9\\
+3x - 2y + 2z = 5
+\end{cases}
+\]
+\end{ejercicio}
+
+\muestraSolucion{%
+\[
+\left[\begin{array}{ccc|c}1&-1&1&2\\2&1&3&9\\3&-2&2&5\end{array}\right]
+\xrightarrow{\substack{R_2\to R_2-2R_1\\R_3\to R_3-3R_1}}
+\left[\begin{array}{ccc|c}1&-1&1&2\\0&3&1&5\\0&1&-1&-1\end{array}\right]
+\xrightarrow{R_3\to R_3-\tfrac{1}{3}R_2}
+\left[\begin{array}{ccc|c}1&-1&1&2\\0&3&1&5\\0&0&-\tfrac{4}{3}&-\tfrac{8}{3}\end{array}\right]
+\]
+$z=2$;\quad $3y+2=5\Rightarrow y=1$;\quad $x-1+2=2\Rightarrow x=1$.
+\[\boxed{x=1,\quad y=1,\quad z=2}\]
+}
+
+\end{document}

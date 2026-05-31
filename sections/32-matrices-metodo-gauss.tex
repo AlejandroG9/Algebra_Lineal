@@ -1,0 +1,411 @@
+%! Author = alejandrogonzalezturrubiates
+%! Date = 03/10/25
+
+%! Author = alejandrogonzalezturrubiates
+%! Date = 03/10/25
+
+\paragraph{Método de Gauss (Eliminación Gaussiana)}
+
+% ======== SISTEMAS 2x2 ========
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y = 5,\\
+2x - y = 4.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & 1 & | & 5\\ 2 & -1 & | & 4 \end{bmatrix}.
+\]
+$F_2 - 2F_1 \to F_2$:
+\[
+\begin{bmatrix} 1 & 1 & | & 5\\ 0 & -3 & | & -6 \end{bmatrix}.
+\]
+$y = 2$, luego $x = 3$.
+\[
+\boxed{x=3,\; y=2.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x - 2y = -3,\\
+3x + y = 12.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & -2 & | & -3\\ 3 & 1 & | & 12 \end{bmatrix}.
+\]
+$F_2 - 3F_1 \to F_2$:
+\[
+\begin{bmatrix} 1 & -2 & | & -3\\ 0 & 7 & | & 21 \end{bmatrix}.
+\]
+$y = 3$, $x = 3$.
+\[
+\boxed{x=3,\; y=3.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+2x + y = 8,\\
+x + 3y = 9.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+$F_2 - \frac{1}{2}F_1 \to F_2$:
+\[
+\begin{bmatrix} 2 & 1 & | & 8\\ 0 & \tfrac{5}{2} & | & 5 \end{bmatrix}.
+\]
+$y = 2$, $x = 3$.
+\[
+\boxed{x=3,\; y=2.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y = 4,\\
+x + y = 8.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & 1 & | & 4\\ 1 & 1 & | & 8 \end{bmatrix}.
+\]
+$F_2 - F_1 \to F_2$:
+\[
+\begin{bmatrix} 1 & 1 & | & 4\\ 0 & 0 & | & 4 \end{bmatrix}.
+\]
+Sistema inconsistente → **sin solución.**
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + 2y = 10,\\
+2x + 4y = 20.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & 2 & | & 10\\ 2 & 4 & | & 20 \end{bmatrix}.
+\]
+$F_2 - 2F_1 \to F_2$:
+\[
+\begin{bmatrix} 1 & 2 & | & 10\\ 0 & 0 & | & 0 \end{bmatrix}.
+\]
+Infinitas soluciones: $x = 10 - 2y$.
+\[
+\boxed{x=10-2y.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+3x - 2y = 7,\\
+6x - 4y = 14.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 3 & -2 & | & 7\\ 6 & -4 & | & 14 \end{bmatrix}.
+\]
+$F_2 - 2F_1 \to F_2$:
+\[
+\begin{bmatrix} 3 & -2 & | & 7\\ 0 & 0 & | & 0 \end{bmatrix}.
+\]
+Infinitas soluciones: $x=\frac{7+2y}{3}$.
+\[
+\boxed{x=\tfrac{7+2y}{3}.}
+\]
+}
+
+% ======== SISTEMAS 3x3 ========
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y + z = 6,\\
+2x - y + z = 3,\\
+x + 2y - z = 4.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & 1 & 1 & | & 6\\ 2 & -1 & 1 & | & 3\\ 1 & 2 & -1 & | & 4 \end{bmatrix}.
+\]
+$F_2 - 2F_1$, $F_3 - F_1$:
+\[
+\begin{bmatrix} 1 & 1 & 1 & | & 6\\ 0 & -3 & -1 & | & -9\\ 0 & 1 & -2 & | & -2 \end{bmatrix}.
+\]
+$F_3 + \tfrac{1}{3}F_2 \to F_3$:
+\[
+\begin{bmatrix} 1 & 1 & 1 & | & 6\\ 0 & -3 & -1 & | & -9\\ 0 & 0 & -\tfrac{7}{3} & | & -5 \end{bmatrix}.
+\]
+$z=\tfrac{15}{7}$; \quad $-3y - \tfrac{15}{7}=-9 \Rightarrow y=\tfrac{16}{7}$; \quad $x=6-\tfrac{16}{7}-\tfrac{15}{7}=\tfrac{11}{7}$.
+\[
+\boxed{x=\tfrac{11}{7},\; y=\tfrac{16}{7},\; z=\tfrac{15}{7}.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x - y + z = 2,\\
+2x + y + 3z = 9,\\
+3x - 2y + 2z = 5.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & -1 & 1 & | & 2\\ 2 & 1 & 3 & | & 9\\ 3 & -2 & 2 & | & 5 \end{bmatrix}.
+\]
+$F_2 - 2F_1,\; F_3 - 3F_1$:
+\[
+\begin{bmatrix} 1 & -1 & 1 & | & 2\\ 0 & 3 & 1 & | & 5\\ 0 & 1 & -1 & | & -1 \end{bmatrix}.
+\]
+$F_3 - \tfrac{1}{3}F_2$:
+\[
+\begin{bmatrix} 1 & -1 & 1 & | & 2\\ 0 & 3 & 1 & | & 5\\ 0 & 0 & -\tfrac{4}{3} & | & -\tfrac{8}{3} \end{bmatrix}.
+\]
+$z=2$, $y=1$, $x=1$.
+\[
+\boxed{x=1,\; y=1,\; z=2.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y + z = 6,\\
+x - y + z = 2,\\
+2x + 3y + 2z = 14.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & 1 & 1 & | & 6\\ 1 & -1 & 1 & | & 2\\ 2 & 3 & 2 & | & 14 \end{bmatrix}.
+\]
+$F_2 - F_1$, $F_3 - 2F_1$:
+\[
+\begin{bmatrix} 1 & 1 & 1 & | & 6\\ 0 & -2 & 0 & | & -4\\ 0 & 1 & 0 & | & 2 \end{bmatrix}.
+\]
+De la segunda $y=2$, luego $x+z=4$. Usando primera, $x+2+z=6$, $x+z=4$, coherente.
+Infinitas soluciones: $x=4-z,\; y=2$.
+\[
+\boxed{x=4-z,\; y=2,\; z \text{ libre.}}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x - y + z = 0,\\
+2x + 3y - z = 9,\\
+-3x + y + 2z = -2.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix} 1 & -1 & 1 & | & 0\\ 2 & 3 & -1 & | & 9\\ -3 & 1 & 2 & | & -2 \end{bmatrix}.
+\]
+$F_2 - 2F_1$, $F_3 + 3F_1$:
+\[
+\begin{bmatrix} 1 & -1 & 1 & | & 0\\ 0 & 5 & -3 & | & 9\\ 0 & -2 & 5 & | & -2 \end{bmatrix}.
+\]
+$F_3 + \tfrac{2}{5}F_2$:
+\[
+\begin{bmatrix} 1 & -1 & 1 & | & 0\\ 0 & 5 & -3 & | & 9\\ 0 & 0 & \tfrac{11}{5} & | & \tfrac{16}{5} \end{bmatrix}.
+\]
+$z=\tfrac{8}{19}$;\quad $5y-\tfrac{24}{19}=9 \Rightarrow y=\tfrac{39}{19}$;\quad $x=\tfrac{31}{19}$.
+\[
+\boxed{x=\tfrac{31}{19},\; y=\tfrac{39}{19},\; z=\tfrac{8}{19}.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + 2y + 3z = 1,\\
+2x + 4y + 6z = 2,\\
+3x + 6y + 9z = 3.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+Las filas son múltiplos → sistema **indeterminado**.
+$x + 2y + 3z = 1$ es la única ecuación independiente.
+\[
+\boxed{x=1-2y-3z.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x - y + z = 2,\\
+2x + y - z = 1,\\
+-3x + 2y + 2z = -3.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix}1&-1&1&|&2\\2&1&-1&|&1\\-3&2&2&|&-3\end{bmatrix}
+\xrightarrow{\substack{F_2-2F_1\\F_3+3F_1}}
+\begin{bmatrix}1&-1&1&|&2\\0&3&-3&|&-3\\0&-1&5&|&3\end{bmatrix}
+\xrightarrow{F_3+\frac{1}{3}F_2}
+\begin{bmatrix}1&-1&1&|&2\\0&3&-3&|&-3\\0&0&4&|&2\end{bmatrix}.
+\]
+$z=\tfrac{1}{2}$;\quad $3y-\tfrac{3}{2}=-3\Rightarrow y=-\tfrac{1}{2}$;\quad $x+\tfrac{1}{2}+\tfrac{1}{2}=2\Rightarrow x=1$.
+\[
+\boxed{x=1,\; y=-\tfrac{1}{2},\; z=\tfrac{1}{2}.}
+\]
+}
+
+% ======== SISTEMAS 3x3 ADICIONALES (solución entera) ========
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y + z = 6,\\
+2x - y + z = 6,\\
+x + y + 2z = 9.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix}1&1&1&|&6\\2&-1&1&|&6\\1&1&2&|&9\end{bmatrix}
+\xrightarrow{\substack{F_2-2F_1\\F_3-F_1}}
+\begin{bmatrix}1&1&1&|&6\\0&-3&-1&|&-6\\0&0&1&|&3\end{bmatrix}.
+\]
+$z=3$;\quad $-3y-3=-6\Rightarrow y=1$;\quad $x=6-1-3=2$.
+\[
+\boxed{x=2,\; y=1,\; z=3.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y + z = 10,\\
+x + 2y - z = 7,\\
+2x - y + z = 8.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\begin{bmatrix}1&1&1&|&10\\1&2&-1&|&7\\2&-1&1&|&8\end{bmatrix}
+\xrightarrow{\substack{F_2-F_1\\F_3-2F_1}}
+\begin{bmatrix}1&1&1&|&10\\0&1&-2&|&-3\\0&-3&-1&|&-12\end{bmatrix}
+\xrightarrow{F_3+3F_2}
+\begin{bmatrix}1&1&1&|&10\\0&1&-2&|&-3\\0&0&-7&|&-21\end{bmatrix}.
+\]
+$z=3$;\quad $y-6=-3\Rightarrow y=3$;\quad $x=10-3-3=4$.
+\[
+\boxed{x=4,\; y=3,\; z=3.}
+\]
+}
+
+% ======== SISTEMAS 4x4 ========
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y + z + w = 10,\\
+x - y + z - w = 2,\\
+2x + y - z + w = 5,\\
+3x - y + 2z - w = 9.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+Tras eliminación se obtiene la fila $[0\ 0\ 0\ 0\mid -6]$, lo que indica que el sistema es \textbf{inconsistente (sin solución)}.
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + 2y + 3z + 4w = 30,\\
+2x + y + z + w = 20,\\
+x - y + 2z + 3w = 18,\\
+3x + y + z + 2w = 28.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\boxed{x=6,\; y=2,\; z=4,\; w=2.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + y + z + w = 6,\\
+2x + 3y - z + 2w = 12,\\
+x - y + 2z + w = 4,\\
+3x + 2y + z - w = 10.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+\[
+\boxed{x=\tfrac{29}{10},\; y=\tfrac{6}{5},\; z=\tfrac{2}{5},\; w=\tfrac{3}{2}.}
+\]
+}
+
+\begin{ejercicio}
+Resuelva el sistema:
+\[
+\begin{cases}
+x + 2y - z + w = 5,\\
+2x + 4y - 2z + 2w = 10,\\
+x + 3y - 2z + w = 6,\\
+3x + 6y - 3z + 3w = 15.
+\end{cases}
+\]
+\end{ejercicio}
+\muestraSolucion{
+Dependencia lineal entre filas 1, 2 y 4 → infinitas soluciones.
+\[
+\boxed{x=5-2y+z-w.}
+\]
+}

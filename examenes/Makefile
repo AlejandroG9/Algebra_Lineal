@@ -1,51 +1,54 @@
 # ========= Config =========
-TEXMAIN := examen_2_v1.tex
 OUTDIR  := build
-PDF_SIN := examen_sin_sol
-PDF_CON := examen_con_sol
-
 LATEXMK := latexmk
 LATEXMK_OPTS := -pdf -silent -interaction=nonstopmode -outdir=$(OUTDIR)
 
-# LaTeX buscará también en la carpeta padre (..), donde vive macros.sty
+# LaTeX buscará también en la carpeta padre (..), donde viven los .sty
 export TEXINPUTS := .:..:$(TEXINPUTS)
 
-# ========= Rules =========
-.PHONY: all sin con clean distclean
+VERSIONES := v1 v2 v3
 
-all: sin con
+# ========= Targets =========
+.PHONY: all sin con clean distclean $(VERSIONES)
 
-sin: $(OUTDIR)/$(PDF_SIN).pdf
-con: $(OUTDIR)/$(PDF_CON).pdf
+all: $(foreach v,$(VERSIONES),$(OUTDIR)/examen_departamental_$(v)_sin_sol.pdf \
+                               $(OUTDIR)/examen_departamental_$(v)_con_sol.pdf)
+
+# Por versión individual: make v1  make v2  make v3
+v1: $(OUTDIR)/examen_departamental_v1_sin_sol.pdf $(OUTDIR)/examen_departamental_v1_con_sol.pdf
+v2: $(OUTDIR)/examen_departamental_v2_sin_sol.pdf $(OUTDIR)/examen_departamental_v2_con_sol.pdf
+v3: $(OUTDIR)/examen_departamental_v3_sin_sol.pdf $(OUTDIR)/examen_departamental_v3_con_sol.pdf
 
 $(OUTDIR):
 	mkdir -p $(OUTDIR)
 
-# ... (lo demás igual que ya tienes) ...
-
-# Driver SIN soluciones
-$(OUTDIR)/driver_sin.tex: $(TEXMAIN) | $(OUTDIR)
+# ---- Regla genérica: driver SIN soluciones ----
+$(OUTDIR)/driver_%_sin.tex: examen_departamental_%.tex | $(OUTDIR)
 	@printf "%s\n" \
 	"\\PassOptionsToPackage{nosolucion}{macros_simple}" \
 	"\\providecommand{\\versionEtiqueta}{Sin soluciones}" \
-	"\\input{../$(TEXMAIN)}" > $(OUTDIR)/driver_sin.tex
+	"\\input{../examen_departamental_$*.tex}" > $@
 
-# Driver CON soluciones
-$(OUTDIR)/driver_con.tex: $(TEXMAIN) | $(OUTDIR)
+# ---- Regla genérica: driver CON soluciones ----
+$(OUTDIR)/driver_%_con.tex: examen_departamental_%.tex | $(OUTDIR)
 	@printf "%s\n" \
 	"\\PassOptionsToPackage{solucion}{macros_simple}" \
 	"\\providecommand{\\versionEtiqueta}{Con soluciones}" \
-	"\\input{../$(TEXMAIN)}" > $(OUTDIR)/driver_con.tex
+	"\\input{../examen_departamental_$*.tex}" > $@
 
-$(OUTDIR)/$(PDF_SIN).pdf: $(OUTDIR)/driver_sin.tex $(TEXMAIN)
-	$(LATEXMK) $(LATEXMK_OPTS) -jobname=$(PDF_SIN) $(OUTDIR)/driver_sin.tex
+# ---- PDFs SIN soluciones ----
+$(OUTDIR)/examen_departamental_%_sin_sol.pdf: $(OUTDIR)/driver_%_sin.tex examen_departamental_%.tex
+	$(LATEXMK) $(LATEXMK_OPTS) -jobname=examen_departamental_$*_sin_sol \
+	    $(OUTDIR)/driver_$*_sin.tex
 
-$(OUTDIR)/$(PDF_CON).pdf: $(OUTDIR)/driver_con.tex $(TEXMAIN)
-	$(LATEXMK) $(LATEXMK_OPTS) -jobname=$(PDF_CON) $(OUTDIR)/driver_con.tex
+# ---- PDFs CON soluciones ----
+$(OUTDIR)/examen_departamental_%_con_sol.pdf: $(OUTDIR)/driver_%_con.tex examen_departamental_%.tex
+	$(LATEXMK) $(LATEXMK_OPTS) -jobname=examen_departamental_$*_con_sol \
+	    $(OUTDIR)/driver_$*_con.tex
 
 clean:
 	$(LATEXMK) -C -outdir=$(OUTDIR)
-	rm -f $(OUTDIR)/driver_*.tex   # <-- importante
+	rm -f $(OUTDIR)/driver_*.tex
 
 distclean: clean
 	rm -rf $(OUTDIR)
